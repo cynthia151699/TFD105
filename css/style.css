@@ -1,0 +1,4 @@
+@import url('reset.css');
+/* 共通樣式的css, nav有兩種, 首頁跟預約頁面用一種, 其他網頁用另一種, 差有無booking button
+footer也寫在這裡, 適用範圍about us 沒有 */
+body{}

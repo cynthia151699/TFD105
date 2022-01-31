@@ -1,0 +1,65 @@
+@import url('reset.css');
+
+body{ 
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+header{
+    background-image: url(../images/main\ pic.png);
+    height: 750px;
+    padding-top: 175px;
+}
+
+nav li{
+    height: 100px;
+    padding-top: 33px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 36px;
+    line-height: 50px;
+    float: left;
+    padding-top: 85px;
+}
+
+.news_bar{
+    height: 400px;
+    background-color: #afdc87;
+}
+
+.news_bar ul{
+    padding-top: 25px;
+    margin: 0 195px;
+}
+
+.news_bar li{
+    margin-right: 75px;
+    border-left: 3px solid #C4C4C4;
+    float: left;
+}
+
+.news_bar img{
+    height: 200px;
+}
+
+.news_bar p{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0C0C0C;
+}
+
+h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+h2{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+footer{
+
+}
