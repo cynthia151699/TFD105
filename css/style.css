@@ -1,8 +1,10 @@
 @import url('reset.css');
 /* 共通樣式的css, nav有兩種, 首頁跟預約頁面用一種, 其他網頁用另一種, 差有無booking button
 footer也寫在這裡, 適用範圍about us 沒有 */
-nav ul{
-    height: 107px;
+
+.nav1{
+    width: 1100px;
+    margin: 0 auto;
 }
 
 nav li{
@@ -10,8 +12,8 @@ nav li{
 }
 
 nav li img{
-    height: 100px;
-    padding-top: 33px;
+    height: 55px;
+    padding-top: 20px;
 }
 
 .text_bar1 ol{
