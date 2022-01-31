@@ -4,20 +4,30 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+nav li{
+    height: 107px;
+    padding-top: 33px;
+
+    font-family: 'Aclonica', sans-serif;
+    font-size: 36px;
+    line-height: 50px;
+
+    float: left;
+}
+
+nav li img{
+    height: 100px;
+}
+
+nav ol{
+    margin-left: 180px;
+    float: left;
+}
+
 header{
     background-image: url(../images/main\ pic.png);
     height: 750px;
     padding-top: 175px;
-}
-
-nav li{
-    height: 100px;
-    padding-top: 33px;
-    font-family: 'Aclonica', sans-serif;
-    font-size: 36px;
-    line-height: 50px;
-    float: left;
-    padding-top: 85px;
 }
 
 .news_bar{
