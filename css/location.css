@@ -1,1 +1,104 @@
 @import url('reset.css');
+body{
+    background-color: #FFFFFB;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+.back{
+    background-image: url(../images/AU_back.png);
+    width: 1440px;
+    height: 1000px;
+}
+
+.navi{
+    width: 1255px;
+    height: 155px;
+    margin: 0 auto;
+    padding-top: 33px;
+}
+
+.navi .logo{
+    width: 310px;
+    height: 100px;
+    margin-left: 25px;
+    margin-right: 65px;
+    padding-top: 25px;
+    float: left;
+}
+
+.navi .text{
+    width: 850px;
+    height: 55px;
+    padding-top: 75px;
+    float: left;
+}
+
+.navi .text ol{
+    height: 55px;
+    font-family: Aclonica;
+    font-size: 36px;
+    line-height: 50px;
+    margin-right: 20px;
+    float: left;
+}
+
+.traffic{
+    width: 1200px;
+    height: 235px;
+    border: 5px solid #DCEFCD;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.traffic .tra_text{
+    width: 1120px;
+    height: 150px;
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.map{
+    width: 1240px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.footer{
+    background-image: url(../images/back_pic.png);
+    width: 1440px;
+    height: 365px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.footer .fo_text{
+    width: 1240px;
+    height: 175px;
+    margin: 0 auto;
+    padding-top: 105px;
+}
+
+.footer .fo_text h1{
+    font-family: Aclonica;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.footer .fo_text h2{
+    font-family: Aclonica;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.footer .fo_text p{
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 35px;
+}
