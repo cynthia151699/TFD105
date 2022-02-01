@@ -1,1 +1,65 @@
 @import url('reset.css');
+body{
+    background-color: #FFFFFB;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+.back{
+    background-image: url(../images/AU_back.png);
+    width: 1440px;
+    height: 1000px;
+}
+
+.navi{
+    width: 1255px;
+    height: 155px;
+}
+
+.navi .logo{
+    width: 310px;
+    height: 100px;
+    margin-left: 25px;
+    margin-right: 65px;
+    padding-top: 25px;
+    float: left;
+}
+
+.navi .text{
+    width: 850px;
+    height: 55px;
+    padding-top: 75px;
+    float: left;
+}
+
+.navi .text ol{
+    height: 55px;
+    font-family: Aclonica;
+    font-size: 36px;
+    line-height: 50px;
+    margin-right: 20px;
+    float: left;
+}
+
+.video{
+    display: inline-block;
+    width: 540px;
+    height: 960px;
+    margin: 0 10%;
+    float: left;
+}
+
+.content{
+    width: 505px;
+    height: 230px;
+    margin-right: 100px;
+    float: right;
+    padding-top: 25px;
+}
+
+.content h1{
+    font-family: Aclonica;
+    font-size: 36px;
+    line-height: 50px;
+}
