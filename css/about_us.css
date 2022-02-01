@@ -1,13 +1,1 @@
 @import url('reset.css');
-h1{
-    font-family: 'Aclonica', sans-serif;
-    width: 250px;
-    padding-top: 100px;
-    margin-left: 60%;
-}
-
-p{
-    width: 500px;
-    padding-top: 130px;
-    margin-left: 60%;
-}
