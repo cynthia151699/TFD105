@@ -106,6 +106,92 @@ body{
     line-height: 50px;
 }
 
+ /* All cabins */
+
+.cabins{
+    width: 1240px;
+    height: 1715px;
+    position: absolute;
+    z-index: 2;
+    left: 65px;
+    top: 220px;
+}
+
+.cabin1{
+    width: 1070px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.cabin1 img{
+    float: left;
+}
+
+.cabin1 p{
+    width: 265px;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+}
+
+.cabin2{
+    width: 1070px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.cabin2 img{
+    float: right;
+}
+
+.cabin2 p{
+    width: 265px;
+    margin-right: 50px;
+    margin-top: 100px;
+    float: right;
+}
+
+.cabin3{
+    width: 1070px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.cabin3 img{
+    float: left;
+}
+
+.cabin3 p{
+    width: 265px;
+    margin-left: 50px;
+    margin-top: 100px;
+    float: left;
+}
+
+.back_deco{
+    width: 1220px;
+    height: 1725px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 470px;
+}
+
+.dash{
+    width: 1220px;
+    height: 555px;
+    border: 10px dashed #DCEFCD;
+}
+
+.solid{
+    width: 1220px;
+    height: 555px;
+    border: 10px solid #DCEFCD;
+    margin-top: 575px;
+}
+
 /* Booking */
 
 .book{
