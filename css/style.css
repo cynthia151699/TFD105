@@ -2,15 +2,11 @@
 body{
     background-color: #FFFFFB;
     width: 1440px;
-    height: 1024px;
     margin: 0 auto;
+    position: relative;
 }
 
-.back{
-    background-image: url(../images/AU_back.png);
-    width: 1440px;
-    height: 1000px;
-}
+/* 導覽列 */
 
 .navi{
     width: 1255px;
@@ -44,7 +40,49 @@ body{
     float: left;
 }
 
+/* 頁尾 */
+
+.footer{
+    background-image: url(../images/back_pic.png);
+    width: 1440px;
+    height: 365px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.fo_text{
+    width: 1240px;
+    height: 175px;
+    margin: 0 auto;
+    padding-top: 105px;
+}
+
+.fo_text h1{
+    font-family: Aclonica;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.fo_text h2{
+    font-family: Aclonica;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.fo_text p{
+    font-family: Noto Sans TC;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 35px;
+}
+
 /* About US */
+
+.back{
+    background-image: url(../images/AU_back.png);
+    width: 1440px;
+    height: 1000px;
+}
 
 .video{
     display: inline-block;
@@ -170,38 +208,4 @@ body{
     height: 500px;
     margin: 0 auto;
     padding-top: 50px;
-}
-
-.footer{
-    background-image: url(../images/back_pic.png);
-    width: 1440px;
-    height: 365px;
-    margin: 0 auto;
-    margin-top: 65px;
-}
-
-.fo_text{
-    width: 1240px;
-    height: 175px;
-    margin: 0 auto;
-    padding-top: 105px;
-}
-
-.fo_text h1{
-    font-family: Aclonica;
-    font-size: 36px;
-    line-height: 50px;
-}
-
-.fo_text h2{
-    font-family: Aclonica;
-    font-size: 24px;
-    line-height: 30px;
-}
-
-.fo_text p{
-    font-family: Noto Sans TC;
-    font-size: 18px;
-    line-height: 20px;
-    padding-top: 35px;
 }
