@@ -19,7 +19,7 @@ body{
     padding-top: 33px;
 }
 
-.navi .logo{
+.logo{
     width: 310px;
     height: 100px;
     margin-left: 25px;
@@ -28,14 +28,14 @@ body{
     float: left;
 }
 
-.navi .text{
+.text{
     width: 850px;
     height: 55px;
     padding-top: 75px;
     float: left;
 }
 
-.navi .text ol{
+.text ol{
     height: 55px;
     font-family: Aclonica;
     font-size: 36px;
@@ -68,6 +68,83 @@ body{
     line-height: 50px;
 }
 
+/* Booking */
+
+.book{
+    width: 1240px;
+    height: 335px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.book input{
+    width: 400px;
+    height: 75px;
+    border-radius: 5px;
+    float: left;
+}
+
+.book_btn{
+    width: 235px;
+    height: 335px;
+    margin-left: 50px;
+    float: left;
+}
+
+.book_btn button{
+    width: 235px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+.book_btn p{
+    width: 235px;
+    height: 235px;
+    margin-top: 50px;
+}
+
+.intro{
+    width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 363px;
+}
+
+.room{
+    width: 820px;
+    height: 300px;
+    padding-left: 100px;
+    position: absolute;
+    z-index: 3
+}
+
+.room_intro{
+    width: 295px;
+    height: 250px;
+    float: right;
+}
+
+.message{
+    background-color: #E7F3E0;
+    border: 20px solid #FCFAF2;
+    width: 1400px;
+    height: 425px;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 225px;
+}
+
+.message p{
+    width: 820px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 105px;
+}
+
 /* Location */
 
 .traffic{
@@ -78,7 +155,7 @@ body{
     margin-top: 35px;
 }
 
-.traffic .tra_text{
+.tra_text{
     width: 1120px;
     height: 150px;
     font-family: Noto Sans TC;
@@ -103,26 +180,26 @@ body{
     margin-top: 65px;
 }
 
-.footer .fo_text{
+.fo_text{
     width: 1240px;
     height: 175px;
     margin: 0 auto;
     padding-top: 105px;
 }
 
-.footer .fo_text h1{
+.fo_text h1{
     font-family: Aclonica;
     font-size: 36px;
     line-height: 50px;
 }
 
-.footer .fo_text h2{
+.fo_text h2{
     font-family: Aclonica;
     font-size: 24px;
     line-height: 30px;
 }
 
-.footer .fo_text p{
+.fo_text p{
     font-family: Noto Sans TC;
     font-size: 18px;
     line-height: 20px;
