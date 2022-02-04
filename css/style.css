@@ -6,7 +6,7 @@ body{
     line-height: 20px;
 }
 
-/* Modular */
+/* ---------- Modular ---------- */
 
 .wrapper{
     width: 1440px;
@@ -24,7 +24,11 @@ h2{
     line-height: 30px;
 }
 
-/* 導覽列 */
+.number{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* ---------- navigation bar ---------- */
 
 .navi{
     width: 1255px;
@@ -35,8 +39,7 @@ h2{
 
 .logo{
     width: 310px;
-    margin-left: 25px;
-    margin-right: 65px;
+    margin: 0 65px 0 25px;
     padding-top: 25px;
     float: left;
 }
@@ -52,14 +55,13 @@ h2{
     float: left;
 }
 
-/* 頁尾 */
+/* ---------- footer ---------- */
 
 .footer{
     background-image: url(../images/back_pic.png);
     width: 1440px;
     height: 365px;
-    margin: 0 auto;
-    margin-top: 65px;
+    margin: 50px auto 0 auto;
 }
 
 .footer h1{
@@ -75,16 +77,16 @@ h2{
 
 .footer p{
     width: 1240px;
-    margin: 0 auto;
     font-family: 'Noto Sans TC', sans-serif;
+    margin: 0 auto;
     padding-top: 35px;
 }
 
-/* About US */
+/* ---------- About US ---------- */
 
 .back{
     background-image: url(../images/AU_back.png);
-    height: 1145px;
+    height: 1148px;
     margin: 0 auto;
 }
 
@@ -98,18 +100,18 @@ h2{
 .content{
     width: 505px;
     margin-right: 100px;
-    float: right;
     padding-top: 25px;
+    float: right;
 }
 
- /* All cabins */
+ /* ---------- All cabins ---------- */
 
 .cabins{
     width: 1240px;
     position: absolute;
     z-index: 2;
-    left: 100px;
     top: 220px;
+    left: 100px;
 }
 
 .cabin1{
@@ -124,8 +126,7 @@ h2{
 
 .cabin1 p{
     width: 265px;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin: 100px 0 0 50px;
     float: left;
 }
 
@@ -142,8 +143,7 @@ h2{
 
 .cabin2 p{
     width: 265px;
-    margin-right: 50px;
-    margin-top: 100px;
+    margin: 100px 50px 0 0;
     float: right;
 }
 
@@ -160,8 +160,7 @@ h2{
 
 .cabin3 p{
     width: 265px;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin: 100px 0 0 50px;
     float: left;
 }
 
@@ -170,8 +169,8 @@ h2{
     height: 1725px;
     position: absolute;
     z-index: 1;
-    left: 100px;
     top: 470px;
+    left: 100px;
 }
 
 .dash{
@@ -187,7 +186,7 @@ h2{
     margin-top: 575px;
 }
 
-/* cabin introduction */
+/* ---------- cabin introduction ---------- */
 
 .detail{
     position: absolute;
@@ -221,6 +220,13 @@ h2{
     left: 100px;
     top: 550px;
 }
+
+/* .preview img{
+    width: 295px;
+    height: 200px;
+    flex: auto;
+    flex-grow: 1;
+} */
 
 .preview1{
     width: 295px;
@@ -285,11 +291,10 @@ h2{
     z-index: 1;
 }
 
-/* Booking */
+/* ---------- Booking ---------- */
 
 .book{
     width: 1240px;
-    height: 335px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -303,7 +308,6 @@ h2{
 
 .book_btn{
     width: 235px;
-    height: 335px;
     margin-left: 50px;
     float: left;
 }
@@ -316,23 +320,21 @@ h2{
 
 .book_btn p{
     width: 235px;
-    height: 235px;
+    position: absolute;
+    z-index: 4;
     margin-top: 50px;
 }
 
 .intro{
     width: 1440px;
-    height: 650px;
     margin: 0 auto;
     position: absolute;
     z-index: 1;
-    left: 0px;
     top: 363px;
 }
 
 .room{
     width: 820px;
-    height: 300px;
     padding-left: 100px;
     position: absolute;
     z-index: 3
@@ -340,8 +342,15 @@ h2{
 
 .room_intro{
     width: 295px;
-    height: 250px;
     float: right;
+}
+
+.room_intro h2{
+    text-align: right;
+}
+
+.room_intro p{
+    margin-top: 20px;
 }
 
 .message{
@@ -351,40 +360,79 @@ h2{
     height: 425px;
     position: absolute;
     z-index: 2;
-    left: 0px;
     top: 225px;
 }
 
 .message p{
     width: 820px;
-    height: 300px;
-    margin-left: 100px;
-    margin-top: 105px;
+    margin: 75px 0 0 100px;
 }
 
-/* Location */
+/* ---------- Location ---------- */
 
 .traffic{
     width: 1200px;
     height: 235px;
     border: 5px solid #DCEFCD;
-    margin: 0 auto;
-    margin-top: 35px;
+    margin: 35px auto 0 auto;
 }
 
-.tra_text{
+.traffic span{
+    display: block;
     width: 1120px;
-    height: 150px;
-    font-family: Noto Sans TC;
-    font-size: 18px;
-    line-height: 20px;
     margin: 0 auto;
     padding-top: 45px;
 }
 
 .map{
     width: 1240px;
-    height: 500px;
     margin: 0 auto;
     padding-top: 50px;
+}
+
+/* ---------- Scenery ---------- */
+
+.scene_pics img{
+    width: 400px;
+}
+
+.scenes1{
+    width: 1240px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.scene1{
+    float: left;
+}
+
+.scene2{
+    float: left;
+    margin-left: 20px;
+}
+
+.scene3{
+    float: left;
+    margin-left: 20px;
+}
+
+.scenes2{
+    width: 1240px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.scene4{
+    float: left;
+}
+
+.scene5{
+    float: left;
+    margin-left: 20px;
+}
+
+.scene6{
+    float: left;
+    margin-left: 20px;
 }
