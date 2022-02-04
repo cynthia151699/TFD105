@@ -1,9 +1,27 @@
 @import url('reset.css');
 body{
     background-color: #FFFFFB;
+    font-family: 'Aclonica', 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* Modular */
+
+.wrapper{
     width: 1440px;
     margin: 0 auto;
     position: relative;
+}
+
+h1{
+    font-size: 32px;
+    line-height: 50px;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 30px;
 }
 
 /* 導覽列 */
@@ -17,7 +35,6 @@ body{
 
 .logo{
     width: 310px;
-    height: 100px;
     margin-left: 25px;
     margin-right: 65px;
     padding-top: 25px;
@@ -25,17 +42,12 @@ body{
 }
 
 .text{
-    width: 850px;
-    height: 55px;
     padding-top: 75px;
     float: left;
 }
 
 .text ol{
     height: 55px;
-    font-family: Aclonica;
-    font-size: 36px;
-    line-height: 50px;
     margin-right: 20px;
     float: left;
 }
@@ -50,29 +62,21 @@ body{
     margin-top: 65px;
 }
 
-.fo_text{
+.footer h1{
     width: 1240px;
-    height: 175px;
     margin: 0 auto;
     padding-top: 105px;
 }
 
-.fo_text h1{
-    font-family: Aclonica;
-    font-size: 36px;
-    line-height: 50px;
+.footer h2{
+    width: 1240px;
+    margin: 0 auto;
 }
 
-.fo_text h2{
-    font-family: Aclonica;
-    font-size: 24px;
-    line-height: 30px;
-}
-
-.fo_text p{
-    font-family: Noto Sans TC;
-    font-size: 18px;
-    line-height: 20px;
+.footer p{
+    width: 1240px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
     padding-top: 35px;
 }
 
@@ -80,40 +84,31 @@ body{
 
 .back{
     background-image: url(../images/AU_back.png);
-    width: 1440px;
-    height: 1000px;
+    height: 1145px;
+    margin: 0 auto;
 }
 
 .video{
     display: inline-block;
     width: 540px;
-    height: 960px;
     margin: 0 10%;
     float: left;
 }
 
 .content{
     width: 505px;
-    height: 230px;
     margin-right: 100px;
     float: right;
     padding-top: 25px;
-}
-
-.content h1{
-    font-family: Aclonica;
-    font-size: 36px;
-    line-height: 50px;
 }
 
  /* All cabins */
 
 .cabins{
     width: 1240px;
-    height: 1715px;
     position: absolute;
     z-index: 2;
-    left: 65px;
+    left: 100px;
     top: 220px;
 }
 
@@ -171,11 +166,11 @@ body{
 }
 
 .back_deco{
-    width: 1220px;
+    width: 1240px;
     height: 1725px;
     position: absolute;
     z-index: 1;
-    left: 70px;
+    left: 100px;
     top: 470px;
 }
 
