@@ -1,4 +1,6 @@
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Noto+Sans+TC&display=swap');
+
 body{
     background-color: #FFFFFB;
     font-family: 'Aclonica', 'Noto Sans TC', sans-serif;
