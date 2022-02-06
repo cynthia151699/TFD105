@@ -92,6 +92,10 @@ a:hover{
     float: left;
 }
 
+.navi2 .calendar{
+    padding-top: 55px;
+}
+
 /* ---------- footer ---------- */
 
 .footer{
@@ -99,6 +103,13 @@ a:hover{
     width: 1440px;
     height: 300px;
     margin: 50px auto 0 auto;
+}
+
+.footer .community{
+    width: 290px; 
+    height: 70px; 
+    margin: 0 auto; 
+    padding-top: 25px;
 }
 
 .footer h1{
@@ -118,9 +129,37 @@ a:hover{
     padding-top: 35px;
 }
 
+/* ---------- index ---------- */
+
+.main_visual{
+    background-image: url(../images/main_pic.png); 
+    width: 1240px; 
+    height: 750px; 
+    margin: 0 auto;
+}
+
+.main_book{
+    width: 440px;
+    margin: 0 auto;
+}
+
+.main_visual button{
+    font-weight: bold;
+    background-color: #FFFFFB; 
+    opacity: 75%; 
+    border: none; 
+    width: 440px; 
+    height: 120px; 
+    margin-top: 575px; 
+}
+
+.fo_index{
+    margin-top: 0;
+}
+
 /* ---------- About US ---------- */
 
-.back{
+.back_pic{
     background-image: url(../images/AU_back1.png);
     height: 1115px;
     margin: 0 auto;
@@ -142,7 +181,7 @@ a:hover{
 
  /* ---------- All cabins ---------- */
 
- .ba{
+ .back_color{
     width: 1440px;
     height: 1700px;
     background-color: #FCFAF2;
@@ -228,6 +267,20 @@ a:hover{
     margin-top: 575px;
 }
 
+.fo_all{
+    position: absolute;
+    z-index: 3;
+    top: 1855px;
+    left: 0px;
+}
+
+.white{
+    background-color: black;
+    width: 1440px;
+    height: 1px;
+    margin-top: 349px;
+}
+
 /* ---------- cabin introduction ---------- */
 
 .detail{
@@ -263,13 +316,6 @@ a:hover{
     top: 550px;
 }
 
-/* .preview img{
-    width: 295px;
-    height: 200px;
-    flex: auto;
-    flex-grow: 1;
-} */
-
 .preview1{
     width: 295px;
     height: 200px;
@@ -303,7 +349,7 @@ a:hover{
     margin: 0 auto;
 }
 
-.right{
+.front{
     width: 40px;
     height: 100px;
     position: absolute;
@@ -312,7 +358,7 @@ a:hover{
     top: 455px;
 }
 
-.left{
+.last{
     width: 40px;
     height: 100px;
     position: absolute;
@@ -331,6 +377,10 @@ a:hover{
     z-index: 1;
 }
 
+.fo_solo{
+    margin-top: 50px;
+}
+
 /* ---------- Booking ---------- */
 
 .book{
@@ -340,25 +390,35 @@ a:hover{
 }
 
 .book input{
-    width: 400px;
+    font-size: 20px;
+    width: 425px;
     height: 75px;
     border-radius: 5px;
     float: left;
 }
 
-.book_btn{
+.check_out{
+    margin-left: 40px;
+}
+
+.book_button{
     width: 235px;
-    margin-left: 50px;
+    margin-left: 100px;
     float: left;
 }
 
-.book_btn button{
+.book_button button{
+    background-color: #FDD371;
+    font-weight: bold;
+    color: #804F22;
+    border: none;
+    border-radius: 15px;
     width: 235px;
     height: 70px;
     margin-top: 5px;
 }
 
-.book_btn p{
+.book_button p{
     width: 235px;
     position: absolute;
     z-index: 4;
@@ -374,7 +434,7 @@ a:hover{
 }
 
 .room{
-    width: 820px;
+    width: 870px;
     padding-left: 100px;
     position: absolute;
     z-index: 3
@@ -382,6 +442,7 @@ a:hover{
 
 .room_intro{
     width: 295px;
+    margin-left: 10px;
     float: right;
 }
 
@@ -408,6 +469,10 @@ a:hover{
     margin: 75px 0 0 100px;
 }
 
+.fo_book{
+    margin-top: 898px;
+}
+
 /* ---------- Location ---------- */
 
 .traffic{
@@ -431,6 +496,16 @@ a:hover{
 }
 
 /* ---------- Scenery ---------- */
+
+.scene_pics h2{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.scene_pics p{
+    margin: 10px 15px 0 15px;
+
+}
 
 .scene_pics img{
     width: 400px;
@@ -491,11 +566,41 @@ a:hover{
     z-index: 1;
 }
 
+.scene3:hover .s3h{
+    display: block;
+}
+
+.s3h{
+    background-image: url('../images/text_back5.png');
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
 .scene4{
     position: absolute;
     top: 560px;
     left: 100px;
     z-index: 1;
+}
+
+.scene4:hover .s4h{
+    display: block;
+}
+
+.s4h{
+    background-image: url('../images/text_back5.png');
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
 }
 
 .scene5{
@@ -505,9 +610,43 @@ a:hover{
     z-index: 1;
 }
 
+.scene5:hover .s5h{
+    display: block;
+}
+
+.s5h{
+    background-image: url('../images/text_back5.png');
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
 .scene6{
     position: absolute;
     top: 560px;
     left: 940px;
     z-index: 1;
+}
+
+.scene6:hover .s6h{
+    display: block;
+}
+
+.s6h{
+    background-image: url('../images/text_back5.png');
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.fo_scene{
+    margin-top: 750px;
 }
