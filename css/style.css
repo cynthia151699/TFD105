@@ -1,18 +1,21 @@
 @import url('reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Noto+Sans+TC&display=swap');
+@import url('animate.css');
 
 body{
     background-color: #FFFFFB;
     font-family: 'Aclonica', 'Noto Sans TC', sans-serif;
     font-size: 18px;
     line-height: 20px;
+    color: #0C0C0C;
 }
 
 /* ---------- Modular ---------- */
 
 .wrapper{
+    background-color: #FCFAF2;
     width: 1440px;
-    margin: 0 auto;
+    margin: 30px auto 30px auto;
     position: relative;
 }
 
@@ -27,7 +30,12 @@ h2{
 }
 
 a{
+    color: #804F22;
     text-decoration: none;
+}
+
+a:hover{
+    color: #FCCC59;
 }
 
 .number{
@@ -40,23 +48,46 @@ a{
     width: 1255px;
     height: 155px;
     margin: 0 auto;
-    padding-top: 33px;
 }
 
-.logo{
+.navi .logo{
     width: 310px;
-    margin: 0 65px 0 25px;
+    margin: 0 255px 0 25px;
     padding-top: 25px;
     float: left;
 }
 
-.text{
+.navi .text{
     padding-top: 75px;
     float: left;
 }
 
-.text ol{
-    height: 55px;
+.navi .text ol{
+    height: 45px;
+    margin-right: 20px;
+    float: left;
+}
+
+.navi2{
+    width: 1255px;
+    height: 155px;
+    margin: 0 auto;
+}
+
+.navi2 .logo{
+    width: 310px;
+    margin: 0 200px 0 25px;
+    padding-top: 25px;
+    float: left;
+}
+
+.navi2 .text{
+    padding-top: 75px;
+    float: left;
+}
+
+.navi2 .text ol{
+    height: 45px;
     margin-right: 20px;
     float: left;
 }
@@ -64,16 +95,16 @@ a{
 /* ---------- footer ---------- */
 
 .footer{
-    background-image: url(../images/back_pic.png);
+    background-image: url(../images/back_pic2.png);
     width: 1440px;
-    height: 365px;
+    height: 300px;
     margin: 50px auto 0 auto;
 }
 
 .footer h1{
     width: 1240px;
     margin: 0 auto;
-    padding-top: 105px;
+    padding-top: 5px;
 }
 
 .footer h2{
@@ -90,8 +121,8 @@ a{
 /* ---------- About US ---------- */
 
 .back{
-    background-image: url(../images/AU_back.png);
-    height: 1148px;
+    background-image: url(../images/AU_back1.png);
+    height: 1115px;
     margin: 0 auto;
 }
 
@@ -110,6 +141,12 @@ a{
 }
 
  /* ---------- All cabins ---------- */
+
+ .ba{
+    width: 1440px;
+    height: 1700px;
+    background-color: #FCFAF2;
+ }
 
 .cabins{
     width: 1240px;
@@ -267,23 +304,21 @@ a{
 }
 
 .right{
-    background-color: lightcoral;
-    opacity: 50%;
-    width: 100px;
-    height: 750px;
+    width: 40px;
+    height: 100px;
     position: absolute;
     z-index: 2;
+    left: 5px;
+    top: 455px;
 }
 
 .left{
-    background-color: lightgray;
-    opacity: 50%;
-    width: 100px;
-    height: 750px;
+    width: 40px;
+    height: 100px;
     position: absolute;
     z-index: 2;
-    left: 1340px;
-    top: 188px;
+    left: 1392px;
+    top: 455px;
 }
 
 .cabin_back{
@@ -409,12 +444,6 @@ a{
 
 .scene1{
     float: left;
-}
-
-.scene1 a:hover{
-    width: 400px;
-    height: 300px;
-    background-color: #E7F3E0;
 }
 
 .scene2{
