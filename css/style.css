@@ -161,6 +161,11 @@ a:hover{
     margin-top: 575px; 
 }
 
+.main_visual button:hover{
+    opacity: 100%;
+    color: #FCCC59;
+}
+
 .news_bar{
     background-color: #E7F3E0; 
     width: 1440px; 
@@ -206,14 +211,35 @@ a:hover{
     margin-top: 40px;
 }
 
-.know{
-    width: 1440px; 
-    margin: 0 auto; 
+.know_us img{
+    height: 810px; 
+    position: absolute; 
+    top: 1405px; 
+    left: 382px;
 }
 
-.know video{
+.know_us h1{
+    font-size: 45px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em; 
+    position: absolute; 
+    top: 1670px; 
+    left: 695px;
+}
+
+.know_us h2{
+    width: 500px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em; 
+    position: absolute; 
+    top: 1735px; 
+    left: 700px; 
+}
+
+.know_us video{
     width: 1440px;
 }
+
 
 .fo_index{
     margin-top: -6px;
