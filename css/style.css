@@ -127,7 +127,7 @@ a:hover{
 }
 
 .video{
-    display: inline-block;
+    display: block;
     width: 540px;
     margin: 0 10%;
     float: left;
@@ -436,43 +436,78 @@ a:hover{
     width: 400px;
 }
 
-.scenes1{
-    width: 1240px;
+.scene1{
+    width: 400px;
     height: 300px;
-    margin: 0 auto;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    z-index: 1;
 }
 
-.scene1{
-    float: left;
+.scene1:hover .s1h{
+    display: block;
+}
+
+.s1h{
+    background-image: url('../images/text_back5.png');
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
 }
 
 .scene2{
-    float: left;
-    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 210px;
+    left: 520px;
+    z-index: 1;
+}
+
+.scene2:hover .s2h{
+    display: block;
+}
+
+.s2h{
+    background-image: url('../images/text_back5.png');
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
 }
 
 .scene3{
-    float: left;
-    margin-left: 20px;
-}
-
-.scenes2{
-    width: 1240px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 50px;
+    position: absolute;
+    top: 210px;
+    left: 940px;
+    z-index: 1;
 }
 
 .scene4{
-    float: left;
+    position: absolute;
+    top: 560px;
+    left: 100px;
+    z-index: 1;
 }
 
 .scene5{
-    float: left;
-    margin-left: 20px;
+    position: absolute;
+    top: 560px;
+    left: 520px;
+    z-index: 1;
 }
 
 .scene6{
-    float: left;
-    margin-left: 20px;
+    position: absolute;
+    top: 560px;
+    left: 940px;
+    z-index: 1;
 }
