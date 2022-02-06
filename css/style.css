@@ -92,8 +92,16 @@ a:hover{
     float: left;
 }
 
-.navi2 .calendar{
+.calendar{
     padding-top: 55px;
+}
+
+.calendar p{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
 }
 
 /* ---------- footer ---------- */
@@ -102,7 +110,7 @@ a:hover{
     background-image: url(../images/back_pic2.png);
     width: 1440px;
     height: 300px;
-    margin: 50px auto 0 auto;
+    margin: 0 auto;
 }
 
 .footer .community{
@@ -153,8 +161,63 @@ a:hover{
     margin-top: 575px; 
 }
 
+.news_bar{
+    background-color: #E7F3E0; 
+    width: 1440px; 
+    height: 400px; 
+    margin: 100px auto 0 auto; 
+}
+
+.news_bar img{
+    width: 250px; 
+    height: 250px; 
+    border-radius: 125px; 
+    padding-left: 40px;
+}
+
+.news_bar p{
+    width: 250px; 
+    height: 50px;
+    margin-top: 25px;
+    padding-left: 40px;
+}
+
+.news1{
+    width: 325px; 
+    height: 335px; 
+    float: left; 
+    margin-top: 40px; 
+    margin-left: 195px; 
+    border-right: 3px solid #C4C4C4;
+}
+
+.news2{
+    width: 325px; 
+    height: 335px; 
+    float: left; 
+    margin-top: 40px; 
+    border-right: 3px solid #C4C4C4;
+}
+
+.news3{
+    width: 325px; 
+    height: 335px; 
+    float: left; 
+    margin-top: 40px;
+}
+
+.know{
+    width: 1440px; 
+    margin: 0 auto; 
+    padding-top: 30px;
+}
+
+.know video{
+    height: 800px;
+}
+
 .fo_index{
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 /* ---------- About US ---------- */
@@ -270,7 +333,7 @@ a:hover{
 .fo_all{
     position: absolute;
     z-index: 3;
-    top: 1855px;
+    top: 1905px;
     left: 0px;
 }
 
@@ -305,7 +368,7 @@ a:hover{
     height: 500px;
     position: absolute;
     left: 500px;
-    top: 0px;
+    top: 15px;
 }
 
 .preview{
@@ -493,6 +556,10 @@ a:hover{
     width: 1240px;
     margin: 0 auto;
     padding-top: 50px;
+}
+
+.fo_lo{
+    margin-top: 50px;
 }
 
 /* ---------- Scenery ---------- */
