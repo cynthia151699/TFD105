@@ -209,15 +209,14 @@ a:hover{
 .know{
     width: 1440px; 
     margin: 0 auto; 
-    padding-top: 30px;
 }
 
 .know video{
-    height: 800px;
+    width: 1440px;
 }
 
 .fo_index{
-    margin-top: 30px;
+    margin-top: -6px;
 }
 
 /* ---------- About US ---------- */
