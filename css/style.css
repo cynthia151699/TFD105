@@ -409,6 +409,12 @@ a{
     float: left;
 }
 
+.scene1 a:hover{
+    width: 400px;
+    height: 300px;
+    background-color: #E7F3E0;
+}
+
 .scene2{
     float: left;
     margin-left: 20px;
