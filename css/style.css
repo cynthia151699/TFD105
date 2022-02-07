@@ -212,6 +212,10 @@ a:hover{
     margin-top: 40px;
 }
 
+.iv video{
+    height: 810px;
+}
+
 .know_us img{
     height: 810px; 
     position: absolute; 
@@ -235,15 +239,6 @@ a:hover{
     position: absolute; 
     top: 1735px; 
     left: 700px; 
-}
-
-.know_us video{
-    width: 1440px;
-}
-
-
-.fo_index{
-    margin-top: -6px; 
 }
 
 /* ---------- About US ---------- */
