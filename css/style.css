@@ -14,7 +14,7 @@ body{
 
 .wrapper{
     background-color: #FCFAF2;
-    width: 1440px;
+    width: 1200px;
     margin: 30px auto 30px auto;
     position: relative;
 }
@@ -46,14 +46,14 @@ a:hover{
 /* ---------- navigation bar ---------- */
 
 .navi{
-    width: 1255px;
+    width: 1200px;
     height: 155px;
     margin: 0 auto;
 }
 
 .navi .logo{
     width: 310px;
-    margin: 0 255px 0 25px;
+    margin: 0 200px 0 25px;
     padding-top: 25px;
     float: left;
 }
@@ -70,14 +70,14 @@ a:hover{
 }
 
 .navi2{
-    width: 1255px;
+    width: 1200px;
     height: 155px;
     margin: 0 auto;
 }
 
 .navi2 .logo{
     width: 310px;
-    margin: 0 200px 0 25px;
+    margin: 0 135px 0 25px;
     padding-top: 25px;
     float: left;
 }
@@ -109,7 +109,7 @@ a:hover{
 
 .footer{
     background-image: url(../images/back_pic2.png);
-    width: 1440px;
+    width: 1200px;
     height: 300px;
     margin: 0 auto;
 }
@@ -122,27 +122,26 @@ a:hover{
 }
 
 .footer h1{
-    width: 1240px;
+    width: 1100px;
     margin: 0 auto;
-    padding-top: 5px;
 }
 
 .footer h2{
-    width: 1240px;
+    width: 1100px;
     margin: 0 auto;
 }
 
 .footer p{
-    width: 1240px;
+    width: 1100px;
     margin: 0 auto;
-    padding-top: 35px;
+    padding-top: 15px;
 }
 
 /* ---------- index ---------- */
 
 .main_visual{
     background-image: url(../images/main_pic.png); 
-    width: 1240px; 
+    width: 1150px; 
     height: 750px; 
     margin: 0 auto;
 }
@@ -169,7 +168,7 @@ a:hover{
 
 .news_bar{
     background-color: #E7F3E0; 
-    width: 1440px; 
+    width: 1200px; 
     height: 400px; 
     margin: 100px auto 0 auto; 
 }
@@ -193,7 +192,7 @@ a:hover{
     height: 335px; 
     float: left; 
     margin-top: 40px; 
-    margin-left: 195px; 
+    margin-left: 105px; 
     border-right: 3px solid #C4C4C4;
 }
 
@@ -213,27 +212,26 @@ a:hover{
 }
 
 .know_us {
-    height: 809px;
+    height: 675px;
 }
 
 .know_us video{
-    height: 810px;
+    width: 1200px;
 }
 
 .know_us img{
-    height: 810px; 
+    height: 675px; 
     position: absolute; 
     top: 1405px; 
-    left: 382px;
+    left: 319px;
 }
 
 .know_us h1{
-    font-size: 45px;
     color: white; 
     text-shadow: black 0.1em 0.1em 0.2em; 
     position: absolute; 
-    top: 1670px; 
-    left: 695px;
+    top: 1685px; 
+    left: 645px;
 }
 
 .know_us h2{
@@ -242,7 +240,7 @@ a:hover{
     text-shadow: black 0.1em 0.1em 0.2em; 
     position: absolute; 
     top: 1735px; 
-    left: 700px; 
+    left: 645px; 
 }
 
 /* ---------- About US ---------- */
@@ -256,12 +254,12 @@ a:hover{
 .video{
     display: block;
     width: 540px;
-    margin: 0 10%;
+    margin: 0 5%;
     float: left;
 }
 
 .content{
-    width: 505px;
+    width: 435px;
     margin-right: 100px;
     padding-top: 25px;
     float: right;
@@ -274,17 +272,17 @@ a:hover{
  /* ---------- All cabins ---------- */
 
  .back_color{
-    width: 1440px;
+    width: 1200px;
     height: 1700px;
     background-color: #FCFAF2;
  }
 
 .cabins{
-    width: 1240px;
+    width: 1100px;
     position: absolute;
     z-index: 2;
     top: 220px;
-    left: 100px;
+    left: 50px;
 }
 
 .cabins a{
@@ -296,7 +294,7 @@ a:hover{
 }
 
 .cabin1{
-    width: 1070px;
+    width: 1100px;
     height: 500px;
     margin: 0 auto;
 }
@@ -312,7 +310,7 @@ a:hover{
 }
 
 .cabin2{
-    width: 1070px;
+    width: 1100px;
     height: 500px;
     margin: 0 auto;
     padding-top: 75px;
@@ -329,7 +327,7 @@ a:hover{
 }
 
 .cabin3{
-    width: 1070px;
+    width: 1100px;
     height: 500px;
     margin: 0 auto;
     padding-top: 75px;
@@ -346,22 +344,22 @@ a:hover{
 }
 
 .back_deco{
-    width: 1240px;
+    width: 1100px;
     height: 1725px;
     position: absolute;
     z-index: 1;
     top: 470px;
-    left: 100px;
+    left: 50px;
 }
 
 .dash{
-    width: 1220px;
+    width: 1080px;
     height: 555px;
     border: 10px dashed #DCEFCD;
 }
 
 .solid{
-    width: 1220px;
+    width: 1080px;
     height: 555px;
     border: 10px solid #DCEFCD;
     margin-top: 575px;
@@ -376,7 +374,7 @@ a:hover{
 
 .white{
     background-color: black;
-    width: 1440px;
+    width: 1200px;
     height: 1px;
     margin-top: 349px;
 }
@@ -401,50 +399,58 @@ a:hover{
 }
 
 .detail_pic{
-    width: 840px;
+    width: 700px;
     height: 500px;
     position: absolute;
-    left: 500px;
-    top: 15px;
+    left: 440px;
+    top: 25px;
+}
+
+.detail_pic img{
+    width: 700px;
 }
 
 .preview{
-    width: 1240px;
+    width: 1100px;
     height: 200px;
     position: absolute;
-    left: 100px;
+    left: 50px;
     top: 550px;
 }
 
+.preview img{
+    width: 250px;
+}
+
 .preview1{
-    width: 295px;
+    width: 250px;
     height: 200px;
     float: left;
 }
 
 .preview2{
-    width: 295px;
+    width: 250px;
     height: 200px;
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .preview3{
-    width: 295px;
+    width: 250px;
     height: 200px;
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .preview4{
-    width: 295px;
+    width: 250px;
     height: 200px;
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .change{
-    width: 1440px;
+    width: 1200px;
     height: 750px;
     margin: 0 auto;
 }
@@ -455,7 +461,7 @@ a:hover{
     position: absolute;
     z-index: 2;
     left: 5px;
-    top: 455px;
+    top: 473px;
 }
 
 .last{
@@ -463,13 +469,13 @@ a:hover{
     height: 100px;
     position: absolute;
     z-index: 2;
-    left: 1392px;
-    top: 455px;
+    left: 1170px;
+    top: 473px;
 }
 
 .cabin_back{
     background-color: #E7F3E0;
-    width: 1440px;
+    width: 1200px;
     height: 350px;
     position: absolute;
     left: 0px;
@@ -484,14 +490,14 @@ a:hover{
 /* ---------- Booking ---------- */
 
 .book{
-    width: 1240px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
 .book input{
-    font-size: 20px;
-    width: 425px;
+    font-size: 18px;
+    width: 400px;
     height: 75px;
     border-radius: 5px;
     float: left;
@@ -503,7 +509,7 @@ a:hover{
 
 .book_button{
     width: 235px;
-    margin-left: 100px;
+    margin-left: 80px;
     float: left;
 }
 
@@ -534,15 +540,14 @@ a:hover{
 }
 
 .room{
-    width: 870px;
-    padding-left: 100px;
+    width: 825px;
+    padding-left: 50px;
     position: absolute;
-    z-index: 3
+    z-index: 3;
 }
 
 .room_intro{
-    width: 295px;
-    margin-left: 10px;
+    width: 275px;
     float: right;
 }
 
@@ -557,7 +562,7 @@ a:hover{
 .message{
     background-color: #E7F3E0;
     border: 20px solid #FCFAF2;
-    width: 1400px;
+    width: 1150px;
     height: 425px;
     position: absolute;
     z-index: 2;
@@ -566,7 +571,7 @@ a:hover{
 
 .message p{
     width: 820px;
-    margin: 75px 0 0 100px;
+    margin: 75px 0 0 50px;
 }
 
 .fo_book{
@@ -576,7 +581,7 @@ a:hover{
 /* ---------- Location ---------- */
 
 .traffic{
-    width: 1200px;
+    width: 1100px;
     height: 235px;
     border: 5px solid #DCEFCD;
     margin: 35px auto 0 auto;
@@ -584,13 +589,13 @@ a:hover{
 
 .traffic span{
     display: block;
-    width: 1120px;
+    width: 1000px;
     margin: 0 auto;
     padding-top: 45px;
 }
 
 .map{
-    width: 1240px;
+    width: 1100px;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -615,12 +620,12 @@ a:hover{
 }
 
 .scene1{
-    width: 400px;
+    width: 370px;
     height: 300px;
     overflow: hidden;
     position: absolute;
     top: 210px;
-    left: 100px;
+    left: 25px;
     z-index: 1;
 }
 
@@ -630,7 +635,7 @@ a:hover{
 
 .s1h{
     background-image: url('../images/text_back5.png');
-    width: 400px;
+    width: 370px;
     height: 300px;
     position: absolute;
     top: 0px;
@@ -644,12 +649,12 @@ a:hover{
 }
 
 .scene2{
-    width: 400px;
+    width: 370px;
     height: 300px;
     overflow: hidden;
     position: absolute;
     top: 210px;
-    left: 520px;
+    left: 415px;
     z-index: 1;
 }
 
@@ -659,7 +664,7 @@ a:hover{
 
 .s2h{
     background-image: url('../images/text_back5.png');
-    width: 400px;
+    width: 370px;
     height: 300px;
     position: absolute;
     top: 0px;
@@ -669,16 +674,16 @@ a:hover{
 }
 
 .s2h h2{
-    margin-top: 140px;
+    margin-top: 130px;
 }
 
 .scene3{
-    width: 400px;
+    width: 370px;
     height: 300px;
     overflow: hidden;
     position: absolute;
     top: 210px;
-    left: 940px;
+    left: 805px;
     z-index: 1;
 }
 
@@ -688,7 +693,7 @@ a:hover{
 
 .s3h{
     background-image: url('../images/text_back5.png');
-    width: 400px;
+    width: 370px;
     height: 300px;
     position: absolute;
     top: 0px;
@@ -698,12 +703,12 @@ a:hover{
 }
 
 .scene4{
-    width: 400px;
+    width: 370px;
     height: 300px;
     overflow: hidden;
     position: absolute;
     top: 560px;
-    left: 100px;
+    left: 25px;
     z-index: 1;
 }
 
@@ -713,7 +718,7 @@ a:hover{
 
 .s4h{
     background-image: url('../images/text_back5.png');
-    width: 400px;
+    width: 370px;
     height: 300px;
     position: absolute;
     top: 0px;
@@ -723,12 +728,12 @@ a:hover{
 }
 
 .scene5{
-    width: 400px;
+    width: 370px;
     height: 300px;
     overflow: hidden;
     position: absolute;
     top: 560px;
-    left: 520px;
+    left: 415px;
     z-index: 1;
 }
 
@@ -738,7 +743,7 @@ a:hover{
 
 .s5h{
     background-image: url('../images/text_back5.png');
-    width: 400px;
+    width: 370px;
     height: 300px;
     position: absolute;
     top: 0px;
@@ -748,12 +753,12 @@ a:hover{
 }
 
 .scene6{
-    width: 400px;
+    width: 370px;
     height: 300px;
     overflow: hidden;
     position: absolute;
     top: 560px;
-    left: 940px;
+    left: 805px;
     z-index: 1;
 }
 
@@ -763,7 +768,7 @@ a:hover{
 
 .s6h{
     background-image: url('../images/text_back5.png');
-    width: 400px;
+    width: 370px;
     height: 300px;
     position: absolute;
     top: 0px;
