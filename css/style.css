@@ -609,16 +609,16 @@ a:hover{
 
 .scene_pics p{
     margin: 10px 15px 0 15px;
-
 }
 
 .scene_pics img{
-    width: 400px;
+    height: 300px;
 }
 
 .scene1{
     width: 400px;
     height: 300px;
+    overflow: hidden;
     position: absolute;
     top: 210px;
     left: 100px;
@@ -640,9 +640,14 @@ a:hover{
     display: none;
 }
 
+.s1h h2{
+    margin-top: 160px;
+}
+
 .scene2{
     width: 400px;
     height: 300px;
+    overflow: hidden;
     position: absolute;
     top: 210px;
     left: 520px;
@@ -664,7 +669,14 @@ a:hover{
     display: none;
 }
 
+.s2h h2{
+    margin-top: 140px;
+}
+
 .scene3{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
     position: absolute;
     top: 210px;
     left: 940px;
@@ -687,6 +699,9 @@ a:hover{
 }
 
 .scene4{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
     position: absolute;
     top: 560px;
     left: 100px;
@@ -709,6 +724,9 @@ a:hover{
 }
 
 .scene5{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
     position: absolute;
     top: 560px;
     left: 520px;
@@ -731,6 +749,9 @@ a:hover{
 }
 
 .scene6{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
     position: absolute;
     top: 560px;
     left: 940px;
@@ -750,6 +771,10 @@ a:hover{
     left: 0px;
     z-index: 2;
     display: none;
+}
+
+.s6h h2{
+    margin-top: 120px;
 }
 
 .fo_scene{
