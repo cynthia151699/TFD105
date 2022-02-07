@@ -36,6 +36,7 @@ a{
 
 a:hover{
     color: #FCCC59;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .number{
@@ -267,6 +268,10 @@ a:hover{
     float: right;
 }
 
+.content p{
+    padding-top: 10px;
+}
+
  /* ---------- All cabins ---------- */
 
  .back_color{
@@ -281,6 +286,14 @@ a:hover{
     z-index: 2;
     top: 220px;
     left: 100px;
+}
+
+.cabins a{
+    color: #0C0C0C;
+}
+
+.cabins a:hover{
+    color: white;
 }
 
 .cabin1{
