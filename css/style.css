@@ -77,7 +77,7 @@ a:hover{
 
 .navi2 .logo{
     width: 310px;
-    margin: 0 135px 0 25px;
+    margin: 0 130px 0 25px;
     padding-top: 25px;
     float: left;
 }
@@ -387,7 +387,7 @@ a:hover{
 }
 
 .cabin_detail{
-    width: 315px;
+    width: 300px;
     height: 455px;
     position: absolute;
     left: 100px;
@@ -395,6 +395,10 @@ a:hover{
 }
 
 .cabin_detail h2{
+    padding-top: 35px;
+}
+
+.cabin_detail p{
     padding-top: 20px;
 }
 
@@ -403,7 +407,7 @@ a:hover{
     height: 500px;
     position: absolute;
     left: 440px;
-    top: 25px;
+    top: 35px;
 }
 
 .detail_pic img{
@@ -498,18 +502,22 @@ a:hover{
 .book input{
     font-size: 18px;
     width: 400px;
-    height: 75px;
+    height: 65px;
     border-radius: 5px;
     float: left;
 }
 
+.check_in{
+    margin-left: 30px;
+}
+
 .check_out{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .book_button{
     width: 235px;
-    margin-left: 80px;
+    margin-left: 65px;
     float: left;
 }
 
@@ -528,7 +536,7 @@ a:hover{
     width: 235px;
     position: absolute;
     z-index: 4;
-    margin-top: 50px;
+    margin-top: 85px;
 }
 
 .intro{
