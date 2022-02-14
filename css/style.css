@@ -135,3 +135,9 @@ a:hover{
     margin: 0 auto;
     padding-top: 15px;
 }
+
+@media screen and (max-width:768px){
+    .wrapper{
+        width: 100%;
+    }
+}
