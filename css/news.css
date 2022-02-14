@@ -1,0 +1,23 @@
+.back_pic{
+    background-image: url(../images/AU_back1.png);
+    height: 1115px;
+    margin: 0 auto;
+}
+
+.video{
+    display: block;
+    width: 540px;
+    margin: 0 5%;
+    float: left;
+}
+
+.content{
+    width: 435px;
+    margin-right: 100px;
+    padding-top: 25px;
+    float: right;
+}
+
+.content p{
+    padding-top: 10px;
+}

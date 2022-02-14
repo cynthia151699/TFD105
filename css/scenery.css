@@ -1,0 +1,178 @@
+.scene_pics h2{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.scene_pics p{
+    margin: 10px 15px 0 15px;
+}
+
+.scene_pics img{
+    height: 300px;
+}
+
+.scene1{
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 210px;
+    left: 25px;
+    z-index: 1;
+}
+
+.scene1:hover .s1h{
+    display: block;
+}
+
+.s1h{
+    background-image: url('../images/text_back5.png');
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.s1h h2{
+    margin-top: 160px;
+}
+
+.scene2{
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 210px;
+    left: 415px;
+    z-index: 1;
+}
+
+.scene2:hover .s2h{
+    display: block;
+}
+
+.s2h{
+    background-image: url('../images/text_back5.png');
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.s2h h2{
+    margin-top: 130px;
+}
+
+.scene3{
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 210px;
+    left: 805px;
+    z-index: 1;
+}
+
+.scene3:hover .s3h{
+    display: block;
+}
+
+.s3h{
+    background-image: url('../images/text_back5.png');
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.scene4{
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 560px;
+    left: 25px;
+    z-index: 1;
+}
+
+.scene4:hover .s4h{
+    display: block;
+}
+
+.s4h{
+    background-image: url('../images/text_back5.png');
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.scene5{
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 560px;
+    left: 415px;
+    z-index: 1;
+}
+
+.scene5:hover .s5h{
+    display: block;
+}
+
+.s5h{
+    background-image: url('../images/text_back5.png');
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.scene6{
+    width: 370px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 560px;
+    left: 805px;
+    z-index: 1;
+}
+
+.scene6:hover .s6h{
+    display: block;
+}
+
+.s6h{
+    background-image: url('../images/text_back5.png');
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: none;
+}
+
+.s6h h2{
+    margin-top: 120px;
+}
+
+.fo_scene{
+    margin-top: 750px;
+}

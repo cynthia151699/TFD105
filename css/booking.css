@@ -1,0 +1,92 @@
+.book{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.book input{
+    font-size: 18px;
+    width: 400px;
+    height: 65px;
+    border-radius: 5px;
+    float: left;
+}
+
+.check_in{
+    margin-left: 30px;
+}
+
+.check_out{
+    margin-left: 30px;
+}
+
+.book_button{
+    width: 235px;
+    margin-left: 65px;
+    float: left;
+}
+
+.book_button button{
+    background-color: #FDD371;
+    font-weight: bold;
+    color: #804F22;
+    border: none;
+    border-radius: 15px;
+    width: 235px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+.book_button p{
+    width: 235px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 85px;
+}
+
+.intro{
+    width: 1440px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    top: 363px;
+}
+
+.room{
+    width: 825px;
+    padding-left: 50px;
+    position: absolute;
+    z-index: 3;
+}
+
+.room_intro{
+    width: 275px;
+    float: right;
+}
+
+.room_intro h2{
+    text-align: right;
+}
+
+.room_intro p{
+    margin-top: 20px;
+}
+
+.message{
+    background-color: #E7F3E0;
+    border: 20px solid #FCFAF2;
+    width: 1150px;
+    height: 425px;
+    position: absolute;
+    z-index: 2;
+    top: 225px;
+}
+
+.message p{
+    width: 820px;
+    margin: 75px 0 0 50px;
+}
+
+.fo_book{
+    margin-top: 898px;
+}

@@ -1,0 +1,107 @@
+.back_color{
+    width: 1200px;
+    height: 1700px;
+    background-color: #FCFAF2;
+ }
+
+.cabins{
+    width: 1100px;
+    position: absolute;
+    z-index: 2;
+    top: 220px;
+    left: 50px;
+}
+
+.cabins a{
+    color: #0C0C0C;
+}
+
+.cabins a:hover{
+    color: white;
+}
+
+.cabin1{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.cabin1 img{
+    float: left;
+}
+
+.cabin1 p{
+    width: 265px;
+    margin: 100px 0 0 50px;
+    float: left;
+}
+
+.cabin2{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.cabin2 img{
+    float: right;
+}
+
+.cabin2 p{
+    width: 265px;
+    margin: 100px 50px 0 0;
+    float: right;
+}
+
+.cabin3{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.cabin3 img{
+    float: left;
+}
+
+.cabin3 p{
+    width: 265px;
+    margin: 100px 0 0 50px;
+    float: left;
+}
+
+.back_deco{
+    width: 1100px;
+    height: 1725px;
+    position: absolute;
+    z-index: 1;
+    top: 470px;
+    left: 50px;
+}
+
+.dash{
+    width: 1080px;
+    height: 555px;
+    border: 10px dashed #DCEFCD;
+}
+
+.solid{
+    width: 1080px;
+    height: 555px;
+    border: 10px solid #DCEFCD;
+    margin-top: 575px;
+}
+
+.fo_all{
+    position: absolute;
+    z-index: 3;
+    top: 1905px;
+    left: 0px;
+}
+
+.white{
+    background-color: black;
+    width: 1200px;
+    height: 1px;
+    margin-top: 349px;
+}

@@ -1,0 +1,103 @@
+.main_visual{
+    background-image: url(../images/main_pic.png); 
+    width: 1150px; 
+    height: 750px; 
+    margin: 0 auto;
+}
+
+.main_book{
+    width: 440px;
+    margin: 0 auto;
+}
+
+.main_visual button{
+    font-weight: bold;
+    background-color: #FFFFFB; 
+    opacity: 75%; 
+    border: none; 
+    width: 440px; 
+    height: 120px; 
+    margin-top: 575px; 
+}
+
+.main_visual button:hover{
+    opacity: 100%;
+    color: #FCCC59;
+}
+
+.news_bar{
+    background-color: #E7F3E0; 
+    width: 1200px; 
+    height: 400px; 
+    margin: 100px auto 0 auto; 
+}
+
+.news_bar img{
+    width: 250px; 
+    height: 250px; 
+    border-radius: 125px; 
+    padding-left: 40px;
+}
+
+.news_bar p{
+    width: 250px; 
+    height: 50px;
+    margin-top: 25px;
+    padding-left: 40px;
+}
+
+.news1{
+    width: 325px; 
+    height: 335px; 
+    float: left; 
+    margin-top: 40px; 
+    margin-left: 105px; 
+    border-right: 3px solid #C4C4C4;
+}
+
+.news2{
+    width: 325px; 
+    height: 335px; 
+    float: left; 
+    margin-top: 40px; 
+    border-right: 3px solid #C4C4C4;
+}
+
+.news3{
+    width: 325px; 
+    height: 335px; 
+    float: left; 
+    margin-top: 40px;
+}
+
+.know_us {
+    height: 675px;
+}
+
+.know_us video{
+    width: 1200px;
+}
+
+.know_us img{
+    height: 675px; 
+    position: absolute; 
+    top: 1405px; 
+    left: 319px;
+}
+
+.know_us h1{
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em; 
+    position: absolute; 
+    top: 1685px; 
+    left: 645px;
+}
+
+.know_us h2{
+    width: 500px;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em; 
+    position: absolute; 
+    top: 1735px; 
+    left: 645px; 
+}
