@@ -1,45 +1,25 @@
-.main_visual{
+header{
     background-image: url(../images/main_pic.png); 
     width: 1150px; 
     height: 750px; 
     margin: 0 auto;
 }
 
-.main_book{
-    width: 440px;
-    margin: 0 auto;
-}
-
-.main_visual button{
-    font-weight: bold;
-    background-color: #FFFFFB; 
-    opacity: 75%; 
-    border: none; 
-    width: 440px; 
-    height: 120px; 
-    margin-top: 575px; 
-}
-
-.main_visual button:hover{
-    opacity: 100%;
-    color: #FCCC59;
-}
-
-.news_bar{
+aside{
     background-color: #E7F3E0; 
     width: 1200px; 
     height: 400px; 
     margin: 100px auto 0 auto; 
 }
 
-.news_bar img{
+aside img{
     width: 250px; 
     height: 250px; 
     border-radius: 125px; 
     padding-left: 40px;
 }
 
-.news_bar p{
+aside p{    
     width: 250px; 
     height: 50px;
     margin-top: 25px;
@@ -70,34 +50,35 @@
     margin-top: 40px;
 }
 
-.know_us {
+main {
     height: 675px;
+    position: absolute
 }
 
-.know_us video{
+main video{
     width: 1200px;
 }
 
-.know_us img{
+main img{
     height: 675px; 
     position: absolute; 
-    top: 1405px; 
+    top: 0px; 
     left: 319px;
 }
 
-.know_us h1{
+main h1{
     color: white; 
     text-shadow: black 0.1em 0.1em 0.2em; 
     position: absolute; 
-    top: 1685px; 
+    top: 230px; 
     left: 645px;
 }
 
-.know_us h2{
+main h2{
     width: 500px;
     color: white; 
     text-shadow: black 0.1em 0.1em 0.2em; 
     position: absolute; 
-    top: 1735px; 
+    top: 285px; 
     left: 645px; 
 }

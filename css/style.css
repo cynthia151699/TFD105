@@ -106,31 +106,35 @@ a:hover{
 
 /* ---------- footer ---------- */
 
-.footer{
+footer{
     background-image: url(../images/back_pic2.png);
     width: 1200px;
     height: 300px;
     margin: 0 auto;
 }
 
-.footer .community{
+.community{
     width: 290px; 
     height: 70px; 
     margin: 0 auto; 
     padding-top: 25px;
 }
 
-.footer h1{
+.community i{
+    margin-left: 65px;
+}
+
+footer h1{
     width: 1100px;
     margin: 0 auto;
 }
 
-.footer h2{
+footer h2{
     width: 1100px;
     margin: 0 auto;
 }
 
-.footer p{
+footer p{
     width: 1100px;
     margin: 0 auto;
     padding-top: 15px;

@@ -1,9 +1,9 @@
-.detail{
+main{
     position: absolute;
     z-index: 3;
 }
 
-.cabin_detail{
+article{
     width: 300px;
     height: 455px;
     position: absolute;
@@ -11,15 +11,15 @@
     top: 10px;
 }
 
-.cabin_detail h2{
+article h2{
     padding-top: 35px;
 }
 
-.cabin_detail p{
+article p{
     padding-top: 20px;
 }
 
-.detail_pic{
+figure{
     width: 700px;
     height: 500px;
     position: absolute;
@@ -27,11 +27,11 @@
     top: 35px;
 }
 
-.detail_pic img{
+figure img{
     width: 700px;
 }
 
-.preview{
+aside{
     width: 1100px;
     height: 200px;
     position: absolute;
@@ -39,7 +39,7 @@
     top: 550px;
 }
 
-.preview img{
+aside img{
     width: 250px;
 }
 
@@ -102,8 +102,4 @@
     left: 0px;
     top: 500px;
     z-index: 1;
-}
-
-.fo_solo{
-    margin-top: 50px;
 }
