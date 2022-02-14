@@ -44,49 +44,49 @@ a:hover{
 
 /* ---------- navigation bar ---------- */
 
-.navi{
+.nav{
     width: 1200px;
     height: 155px;
     margin: 0 auto;
 }
 
-.navi .logo{
+.nav .logo{
     width: 310px;
     margin: 0 200px 0 25px;
     padding-top: 25px;
     float: left;
 }
 
-.navi .text{
+.nav .text{
     padding-top: 75px;
     float: left;
 }
 
-.navi .text ol{
+.nav .text ol{
     height: 45px;
     margin-right: 20px;
     float: left;
 }
 
-.navi2{
+.nav2{
     width: 1200px;
     height: 155px;
     margin: 0 auto;
 }
 
-.navi2 .logo{
+.nav2 .logo{
     width: 310px;
     margin: 0 130px 0 25px;
     padding-top: 25px;
     float: left;
 }
 
-.navi2 .text{
+.nav2 .text{
     padding-top: 75px;
     float: left;
 }
 
-.navi2 .text ol{
+.nav2 .text ol{
     height: 45px;
     margin-right: 20px;
     float: left;
