@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>index</title>
+
     <link rel="icon" href="./images/icon.svg">
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
 </head>
 <body>
@@ -17,22 +21,28 @@
         <!-- 導覽列 -->
         <nav>
 
-            <a href="./index.html">
+            <a style="border: 1px solid red;" href="./index.html">
                 <img src="./images/logo.svg" alt="logo">
             </a>
+            
+            <label for="switch"><i class="fa-solid fa-bars fa-2x"></i></label>
+            <input type="checkbox" id="switch">
+            <!-- <i class="fa-solid fa-xmark fa-2x"></i> -->
 
             <ul>
-                <li><a href=""><h1>About US</h1></a></li>
+                <li><a href="#"><h1>About US</h1></a></li>
                 <li><a href="./news.html"><h1>News</h1></a></li>
                 <li><a href="./cabins.html"><h1>Cabins</h1></a></li>
                 <li><a href="./location.html"><h1>Location</h1></a></li>
                 <li><a href="./scenery.html"><h1>Scenery</h1></a></li>
+                <li>
+                    <a href="./booking.html">
+                        <i class="far fa-calendar-alt fa-2x"></i>
+                        <p>book<br>now</p>
+                    </a>
+                </li>
+                <li><a href="./booking.html"><h1>立即預約</h1></a></li>
             </ul>
-
-            <a href="./booking.html">
-                <i class="far fa-calendar-alt fa-2x"></i>
-                <p>book<br>now</p>
-            </a>
 
         </nav>
 
@@ -42,20 +52,20 @@
         <!-- 最新消息 -->
         <aside>
 
-            <article>
+            <figure>
                 <img src="./images/news1.png" alt="活動圖1">
                 <p>來織隻屬於你的小熊吧！毛線體驗課程歡迎您的報名！</p>
-            </article>
+            </figure>
 
-            <article>
+            <figure>
                 <img src="./images/news2.png" alt="活動圖2">
                 <p>關於 Covid-19，我們的應對…</p>
-            </article>
+            </figure>
             
-            <article>
+            <figure>
                 <img src="./images/news3.png" alt="活動圖3">
                 <p>謝謝大家的支持！彩繪牆活動已順利結束！</p>
-            </article>
+            </figure>
 
         </aside>
 

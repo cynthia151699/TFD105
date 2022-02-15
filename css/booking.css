@@ -1,10 +1,10 @@
-.book{
+main{
     width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-.book input{
+main input{
     font-size: 18px;
     width: 400px;
     height: 65px;
@@ -20,13 +20,7 @@
     margin-left: 30px;
 }
 
-.book_button{
-    width: 235px;
-    margin-left: 65px;
-    float: left;
-}
-
-.book_button button{
+main button{
     background-color: #FDD371;
     font-weight: bold;
     color: #804F22;
@@ -37,14 +31,7 @@
     margin-top: 5px;
 }
 
-.book_button p{
-    width: 235px;
-    position: absolute;
-    z-index: 4;
-    margin-top: 85px;
-}
-
-.intro{
+article{
     width: 1440px;
     margin: 0 auto;
     position: absolute;
@@ -52,27 +39,34 @@
     top: 363px;
 }
 
-.room{
+figure{
     width: 825px;
     padding-left: 50px;
     position: absolute;
     z-index: 3;
 }
 
-.room_intro{
+figcaption{
     width: 275px;
     float: right;
 }
 
-.room_intro h2{
+figcaption h2{
     text-align: right;
 }
 
-.room_intro p{
+figcaption p{
     margin-top: 20px;
 }
 
-.message{
+article section p{
+    width: 235px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 85px;
+}
+
+main section{
     background-color: #E7F3E0;
     border: 20px solid #FCFAF2;
     width: 1150px;
@@ -82,11 +76,7 @@
     top: 225px;
 }
 
-.message p{
+main section p{
     width: 820px;
     margin: 75px 0 0 50px;
-}
-
-.fo_book{
-    margin-top: 898px;
 }
