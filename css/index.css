@@ -26,28 +26,13 @@ aside p{
     padding-left: 40px;
 }
 
-.news1{
+article{
     width: 325px; 
     height: 335px; 
     float: left; 
     margin-top: 40px; 
     margin-left: 105px; 
     border-right: 3px solid #C4C4C4;
-}
-
-.news2{
-    width: 325px; 
-    height: 335px; 
-    float: left; 
-    margin-top: 40px; 
-    border-right: 3px solid #C4C4C4;
-}
-
-.news3{
-    width: 325px; 
-    height: 335px; 
-    float: left; 
-    margin-top: 40px;
 }
 
 main {

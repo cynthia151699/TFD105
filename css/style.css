@@ -3,29 +3,29 @@
 
 body{
     background-color: #FFFFFB;
-    font-family: 'Aclonica', 'Noto Sans TC', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
     color: #0C0C0C;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
 }
 
 /* ---------- modular ---------- */
 
 .wrapper{
-    background-color: #FCFAF2;
-    width: 1200px;
-    margin: 30px auto 30px auto;
-    position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1{
-    font-size: 32px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height: 54px;
 }
 
 h2{
     font-size: 24px;
-    line-height: 30px;
+    line-height: 36px;
 }
 
 a{
@@ -38,70 +38,26 @@ a:hover{
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.number{
-    font-family: 'Noto Sans TC', sans-serif;
-}
-
 /* ---------- navigation bar ---------- */
 
-.nav{
-    width: 1200px;
-    height: 155px;
+nav{
+    width: 100%;
+    height: 100px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
-.nav .logo{
-    width: 310px;
-    margin: 0 200px 0 25px;
-    padding-top: 25px;
-    float: left;
+nav li{
+    display: inline-block;
+    border: 1px solid blue;
 }
 
-.nav .text{
-    padding-top: 75px;
-    float: left;
-}
-
-.nav .text ol{
-    height: 45px;
-    margin-right: 20px;
-    float: left;
-}
-
-.nav2{
-    width: 1200px;
-    height: 155px;
-    margin: 0 auto;
-}
-
-.nav2 .logo{
-    width: 310px;
-    margin: 0 130px 0 25px;
-    padding-top: 25px;
-    float: left;
-}
-
-.nav2 .text{
-    padding-top: 75px;
-    float: left;
-}
-
-.nav2 .text ol{
-    height: 45px;
-    margin-right: 20px;
-    float: left;
-}
-
-.calendar{
-    padding-top: 55px;
+nav li ol{
+    display: inline-block;
 }
 
 .calendar p{
-    font-family: 'Aclonica', sans-serif;
-    font-size: 18px;
     text-align: center;
-    margin-top: 10px;
-    line-height: 20px;
 }
 
 /* ---------- footer ---------- */

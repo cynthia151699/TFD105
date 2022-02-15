@@ -14,51 +14,51 @@ main a:hover{
     color: white;
 }
 
-.cabin1{
+article{
     width: 1100px;
     height: 500px;
     margin: 0 auto;
 }
 
-.cabin1 img{
+article img{
     float: left;
 }
 
-.cabin1 p{
+article p{
     width: 265px;
     margin: 100px 0 0 50px;
     float: left;
 }
 
-.cabin2{
+article{
     width: 1100px;
     height: 500px;
     margin: 0 auto;
     padding-top: 75px;
 }
 
-.cabin2 img{
+article img{
     float: right;
 }
 
-.cabin2 p{
+article p{
     width: 265px;
     margin: 100px 50px 0 0;
     float: right;
 }
 
-.cabin3{
+article{
     width: 1100px;
     height: 500px;
     margin: 0 auto;
     padding-top: 75px;
 }
 
-.cabin3 img{
+article img{
     float: left;
 }
 
-.cabin3 p{
+article p{
     width: 265px;
     margin: 100px 0 0 50px;
     float: left;
