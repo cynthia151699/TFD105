@@ -1,9 +1,10 @@
 main{
-    width: 1100px;
+    width: 85%;
     position: absolute;
     z-index: 2;
     top: 220px;
     left: 50px;
+    border: 1px solid red;
 }
 
 main a{
@@ -14,65 +15,53 @@ main a:hover{
     color: white;
 }
 
-figure{
-    width: 1100px;
+figure:nth-child(odd){
+    width: 85%;
     height: 500px;
     margin: 0 auto;
+    padding-top: 75px;
+    border: 1px solid blue;
 }
 
-figure img{
+figure:nth-child(odd) img{
     float: left;
 }
 
-figure p{
+figure:nth-child(odd) p{
     width: 265px;
     margin: 100px 0 0 50px;
     float: left;
 }
 
-figure{
-    width: 1100px;
+figure:nth-child(even){
+    width: 85%;
     height: 500px;
     margin: 0 auto;
     padding-top: 75px;
+    border: 1px solid green;
 }
 
-figure img{
+figure:nth-child(even) img{
     float: right;
 }
 
-figure p{
+figure:nth-child(even) p{
     width: 265px;
     margin: 100px 50px 0 0;
     float: right;
 }
 
-figure{
-    width: 1100px;
-    height: 500px;
-    margin: 0 auto;
-    padding-top: 75px;
-}
-
-figure img{
-    float: left;
-}
-
-figure p{
-    width: 265px;
-    margin: 100px 0 0 50px;
-    float: left;
-}
-
 .dash{
-    width: 1080px;
+    width: 85%;
     height: 555px;
     border: 10px dashed #DCEFCD;
+    margin-top: 575px;
+    margin: 575px auto 0 auto;
 }
 
 .solid{
-    width: 1080px;
+    width: 85%;
     height: 555px;
     border: 10px solid #DCEFCD;
-    margin-top: 575px;
+    margin: 575px auto 0 auto;
 }
