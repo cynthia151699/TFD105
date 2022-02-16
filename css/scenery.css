@@ -1,6 +1,6 @@
 main{
-    width: 990px;
-    height: 460px;
+    max-width: 990px;
+    min-height: 460px;
     margin: 0 auto;
     padding-top: 180px;
     display: flex;
@@ -10,8 +10,8 @@ main{
 
 @media screen and (max-width:768px){
     main{
-        width: 660px;
-        height: 720px;
+        max-width: 660px;
+        min-height: 720px;
         margin: 0 auto;
         padding-top: 180px;
         display: flex;
