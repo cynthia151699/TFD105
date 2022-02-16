@@ -18,6 +18,7 @@ main{
         flex-flow: row wrap;
         align-items: space-around;
     }
+
 }
 
 main h2{
