@@ -9,6 +9,16 @@ body{
     line-height: 1.5;
     letter-spacing: 1px;
     text-align: left;
+    /* animation: change_color 20s linear infinite; */
+}
+
+@keyframes change_color {
+	0%, 100%{
+		background-color: #FFFFFB;
+	}
+	50%{
+		background-color: #FDD371;
+	}
 }
 
 /* ---------- modular ---------- */
@@ -16,7 +26,6 @@ body{
 .wrapper{
     width: 100%;
     margin: 0 auto;
-    position: relative;
     border: 1px solid black;
 }
 
@@ -39,9 +48,14 @@ a:hover{
 /* ---------- navigation bar ---------- */
 
 nav{
-    width: 100%;
+    width: 90%;
     height: 100px;
     margin: 0 auto;
+}
+
+nav ul{
+    display: inline-flex;
+    flex-flow: row nowrap;
 }
 
 nav img{
@@ -49,70 +63,25 @@ nav img{
     margin-left: 15px;
 }
 
-nav ul{
-    display: inline-flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
+nav ul li{
+    text-align: center;
+    margin-right: 20px;
 }
 
-nav li{
-    text-align: center;
+nav ul li:first-child{
+    margin-right: 40%;
+}
+
+nav ul li:last-child{
+    padding-top: 15px;
+    margin-right: 0;
 }
 
 /* hamburger */
-label{
+
+nav li:nth-child(7){
     display: none;
 }
-
-input{
-    display: none;
-}
-
-nav li:last-child{
-    display: none;
-}
-
-@media screen and (max-width:768px){
-    .wrapper{
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    nav{
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-
-    label{
-        display: block;
-        float: right;
-        padding-right: 15px;
-        padding-top: 15px;
-    }
-
-    nav ul{
-        clear: both;
-        margin: 0 auto;
-    }
-
-    nav li{
-        display: block; 
-    }
-
-    nav li:nth-child(7){
-        display: none;
-    }
-
-    nav li:last-child{
-        display: block;
-    }
-
-    nav input:checked ~ nav ul{
-        max-height: 300px;
-    }
-}
-
 
 /* ---------- footer ---------- */
 
@@ -150,8 +119,49 @@ footer p{
     padding-top: 15px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767.98px){
     .wrapper{
         width: 100%;
+        margin: 0 auto;
     }
+
+    nav{
+        width: 100%;
+        margin: 0 auto;
+        /* overflow: hidden; */
+    }
+
+    nav ul{
+        background-color: #FFFFFB;
+        display: block;
+        margin: 0 auto;
+    }
+
+    nav li{
+        display: block; 
+    }
+
+    nav li:nth-child(7){
+        display: none;
+    }
+
+    nav li:last-child{
+        display: block;
+    }
+
+    nav input:checked ~ nav ul{
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+}
+
+@media screen and (max-width: 575.98px){
+
 }

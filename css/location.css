@@ -21,6 +21,7 @@ main{
     margin: 0 auto;
     position: relative;
     padding-top: 30%;
+    border: 1px solid red;
 }
 
 iframe{
@@ -43,7 +44,7 @@ iframe{
 @media screen and (max-width:575.98px){
     section{
         border: 3px solid #DCEFCD;
-        font-size: 12px;
+        /* font-size: 12px; */
     }
     section p{
         padding: 20px;

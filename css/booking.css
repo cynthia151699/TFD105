@@ -1,82 +1,70 @@
 main{
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
-    margin-top: 50px;
+    border: 1px solid red;
 }
 
 main input{
-    font-size: 18px;
-    width: 400px;
-    height: 65px;
-    border-radius: 5px;
-    float: left;
-}
-
-.check_in{
+    width: 420px;
+    height: 60px;
     margin-left: 30px;
 }
 
-.check_out{
-    margin-left: 30px;
-}
 
 main button{
-    background-color: #FDD371;
-    font-weight: bold;
-    color: #804F22;
+    width: 170px;
+    height: 60px;
     border: none;
-    border-radius: 15px;
-    width: 235px;
-    height: 70px;
-    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 4%;
 }
 
 article{
-    width: 1440px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 0 auto;
-    position: absolute;
-    z-index: 1;
-    top: 363px;
+    border: 1px solid red;
 }
 
 figure{
-    width: 825px;
-    padding-left: 50px;
-    position: absolute;
-    z-index: 3;
+    display: inline-block;
+    width: 75%;
+    border: 1px solid red;
+}
+
+figure img{
+    height: 300px;
 }
 
 figcaption{
-    width: 275px;
-    float: right;
+    display: inline-block;
+    width: 25%;
+    margin-left: 9%;
+    border: 1px solid red;
 }
 
 figcaption h2{
     text-align: right;
+    margin-bottom: 20px;
 }
 
 figcaption p{
-    margin-top: 20px;
+    border: 1px solid red;
 }
 
-article section p{
-    width: 235px;
-    position: absolute;
-    z-index: 4;
-    margin-top: 85px;
+article > section{
+    display: inline-block;
+    width: 20%;
+    margin-left: 4%;
+    border: 1px solid red;
 }
 
-main section{
+main > section{
     background-color: #E7F3E0;
-    border: 20px solid #FCFAF2;
-    width: 1150px;
-    height: 425px;
-    position: absolute;
-    z-index: 2;
-    top: 225px;
+    border: 15px double #FCFAF2;
 }
 
 main section p{
-    width: 820px;
-    margin: 75px 0 0 50px;
+    padding: 30px;
+    border: 1px solid red;
 }

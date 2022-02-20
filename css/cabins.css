@@ -1,10 +1,7 @@
 main{
-    width: 85%;
-    position: absolute;
-    z-index: 2;
-    top: 220px;
-    left: 50px;
-    border: 1px solid red;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
 }
 
 main a{
@@ -15,53 +12,64 @@ main a:hover{
     color: white;
 }
 
-figure:nth-child(odd){
-    width: 85%;
-    height: 500px;
-    margin: 0 auto;
-    padding-top: 75px;
-    border: 1px solid blue;
+ul{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
 }
 
-figure:nth-child(odd) img{
+li{
+    width: 100%;
+    height: 325px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+li img{
+    width: 60%;
+    height: 100%;
+    border: 1px solid gray;
+}
+
+li:nth-child(odd){
+
+}
+
+li:nth-child(odd) img{
     float: left;
 }
 
-figure:nth-child(odd) p{
-    width: 265px;
-    margin: 100px 0 0 50px;
+li:nth-child(odd) p{
     float: left;
 }
 
-figure:nth-child(even){
-    width: 85%;
-    height: 500px;
+li:nth-child(even){
+
+}
+
+li:nth-child(even) img{
+    float: right;
+}
+
+li:nth-child(even) p{
+    float: left;
+}
+
+.back{
+    padding-top: 210px;
+    width: 80%;
     margin: 0 auto;
-    padding-top: 75px;
-    border: 1px solid green;
-}
-
-figure:nth-child(even) img{
-    float: right;
-}
-
-figure:nth-child(even) p{
-    width: 265px;
-    margin: 100px 50px 0 0;
-    float: right;
 }
 
 .dash{
-    width: 85%;
-    height: 555px;
-    border: 10px dashed #DCEFCD;
-    margin-top: 575px;
-    margin: 575px auto 0 auto;
+    height: 380px;
+    border: 5px dashed #DCEFCD;
+    box-sizing: border-box;
 }
 
 .solid{
-    width: 85%;
-    height: 555px;
-    border: 10px solid #DCEFCD;
-    margin: 575px auto 0 auto;
+    height: 380px;
+    border: 5px solid #DCEFCD;
+    box-sizing: border-box;
+    margin-top: 380px;
 }

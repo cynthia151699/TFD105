@@ -1,60 +1,50 @@
 main{
-    position: absolute;
-    z-index: 3;
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid red;
+    position: relative;
 }
 
-figure{
-    width: 700px;
-    height: 500px;
+article{
     position: absolute;
-    left: 440px;
-    top: 35px;
+    z-index: 1;
 }
 
 figure img{
-    width: 700px;
+    height: 300px;
 }
 
 figcaption{
-    width: 300px;
-    height: 455px;
-    position: absolute;
-    left: 100px;
-    top: 10px;
+    display: inline-block;
+    width: 25%;
 }
 
 figcaption h2{
-    padding-top: 35px;
+    
 }
 
 figcaption p{
-    padding-top: 20px;
+    
 }
 
 aside{
-    width: 1100px;
-    height: 200px;
-    position: absolute;
-    left: 55px;
-    top: 550px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 aside img{
-    width: 250px;
+    flex-grow: 1;
+    border: 1px solid blue;
 }
 
-aside{
-    width: 250px;
-    height: 200px;
-    float: left;
+.back{
+    padding-top: 130px;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .back_deco{
     background-color: #E7F3E0;
-    width: 1200px;
+    width: 100%;
     height: 350px;
-    position: absolute;
-    left: 0px;
-    top: 500px;
-    z-index: 1;
 }

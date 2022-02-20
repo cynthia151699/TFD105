@@ -1,24 +1,8 @@
 main{
-    width: 80%;
     margin: 0 auto;
     padding-top: 180px;
     display: flex;
-    flex-flow: row wrap;
-}
-
-@media (min-width:576px) and (max-width:767.98px){
-    main{
-        max-width: 600px;
-        min-height: 600px;
-        margin: 0 auto;
-        padding-top: 180px;
-        display: flex;
-        flex-flow: row wrap;
-    }
-}
-
-@media screen and (max-width:575.98px){
-    
+    flex-flow: wrap;
 }
 
 main h2{
@@ -37,15 +21,10 @@ main img{
 }
 
 figure{
-    width: 300px;
+    max-width: 300px;
     height: 200px;
-    margin-right: 30px;
     overflow: hidden;
     position: relative;
-}
-
-figure:hover figcaption{
-    display: block;
 }
 
 figcaption{
@@ -55,6 +34,25 @@ figcaption{
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 2;
+    z-index: 1;
     display: none;
+}
+
+figure:hover figcaption{
+    display: block;
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    main{
+        max-width: 600px;
+        min-height: 600px;
+        margin: 0 auto;
+        padding-top: 180px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (max-width:575.98px){
+    
 }
