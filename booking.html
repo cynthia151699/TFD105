@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,39 @@
     <link rel="icon" href="./images/icon.svg">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/booking.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+        integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
 </head>
+
 <body>
 
     <div class="wrapper">
 
         <!-- 導覽列 -->
 
-        <!-- 預約介面 -->
+        <!-- 預約畫面 -->
         <main>
 
             <!-- 查詢 -->
             <div>
-                <input type="date" class="check_in">
-                <input type="date" class="check_out">
+                <div class="check_in">
+                    <p>入住日</p>
+                    <input type="date">
+                </div>
+                <div class="check_out">
+                    <p>退房日</p>
+                    <input type="date">
+                </div>
                 <button>查看有無空房</button>
             </div>
 
             <!-- 空房選擇 -->
-            <article>
+            <div class="room">
+
                 <!-- 預覽木屋 -->
                 <figure>
-                    <img src="./images/pic.png" alt="">
+                    <img src="./images/photos.png" alt="">
+
                     <figcaption>
                         <h2>頂樓豪華雙人房</h2>
                         <p>一張雙人床（150*200公分 / 厚度15公分）<br>獨立衛浴設備<br>戶外陽台（附遮棚）<br>
@@ -40,28 +51,35 @@
                 </figure>
 
                 <!-- 付款須知 -->
-                <section>
+                <article>
                     <p>付款方式<br>房費 < 3000NTD - 僅收現金<br>房費 ≥ 3000NTD - 可使用信用卡或現金<br>
-                        <br>取消政策<br>免費更改或取消訂單之期限為入住日四天以前；逾期將收取第一晚的房費做為更改費用。<br>例如：1月5號入住，請於1月1號結束前完成更改或取消。
+                            <br>取消政策<br>免費更改或取消訂單之期限為入住日四天以前；逾期將收取第一晚的房費做為更改費用。
+                            <br>例如：1月5號入住，請於1月1號結束前完成更改或取消。
                     </p>
-                </section>
+                </article>
 
-            </article>
+            </div>
+
+
 
             <!-- 位置資訊、住宿須知 -->
-            <section>
-                <p>旅館訊息<br>旅館位於台北熱鬧繁華的東區商圈內，距離捷運忠孝敦化站7號出口，僅步行一分鐘距離。<br>簡約現代的設計風格，與舒適明敞的休憩空間，為旅人探索台北流行文化的最佳起點。<br>
+            <article>
+                <p>旅館訊息<br>旅館位於台北熱鬧繁華的東區商圈內，距離捷運忠孝敦化站7號出口，僅步行一分鐘距離。
+                    <br>簡約現代的設計風格，與舒適明敞的休憩空間，為旅人探索台北流行文化的最佳起點。<br>
                     <br>地址：台北市大安區忠孝東路四段147巷5號3樓<br>電話 : 09-1234-5678 <br>
                     <br>入住時間 03:00 PM <br>退房時間 11:00 AM <br>櫃台時間 08:00 - 22:30 <br>早餐時間 08:00 - 10:00 <br>
-                    <br>入住須知<br> • 如預計抵達將超過櫃檯時間，請務必提前通知<br> • 宿舍8床或總人數12人以上團體訂單，請透過電子郵件聯繫預訂。<br> • 本館無提供加床服務，請依佔床人數預訂<br>(身高>120cm視同佔床)
+                    <br>入住須知<br> • 如預計抵達將超過櫃檯時間，請務必提前通知
+                    <br> • 宿舍8床或總人數12人以上團體訂單，請透過電子郵件聯繫預訂。<br> •
+                    本館無提供加床服務，請依佔床人數預訂<br>(身高>120cm視同佔床)
                 </p>
-            </section>
+            </article>
 
         </main>
-        
+
         <!-- 頁尾 -->
-    
+
     </div>
 
 </body>
+
 </html>

@@ -67,3 +67,9 @@ main h2{
     top: 285px; 
     left: 645px; 
 }
+
+@media (min-width: 768px) and (max-width: 1199.98px){}
+
+@media (min-width: 576px) and (max-width: 767.98px){}
+
+@media screen and (max-width: 575.98px){}

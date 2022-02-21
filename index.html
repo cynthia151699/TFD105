@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,14 @@
     <link rel="icon" href="./images/icon.svg">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+        integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="wrapper">
         <!-- 導覽列 -->
-        <nav>
+        <nav class="com">
             <ul>
                 <li>
                     <a href="./index.html">
@@ -25,7 +28,30 @@
                 <li><a href="./cabins.html">Cabins</a></li>
                 <li><a href="./location.html">Location</a></li>
                 <li><a href="./scenery.html">Scenery</a></li>
-                <li><a href="./booking.html"><h1>立即預約</h1></a></li>
+                <li><a href="./booking.html">
+                        <h1>立即預約</h1>
+                    </a></li>
+                <li>
+                    <a href="./booking.html">
+                        <i class="far fa-calendar-alt fa-2x"></i>
+                        <p>book<br>now</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="ham">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="">
+            </a>
+            <button type="button" class="hamburger">hamburger</button>
+            <ul class="ham_menu">
+                <li><a href="#">About&nbspUS</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./cabins.html">Cabins</a></li>
+                <li><a href="./location.html">Location</a></li>
+                <li><a href="./scenery.html">Scenery</a></li>
+                <li><a href="./booking.html">立即預約</a></li>
                 <li>
                     <a href="./booking.html">
                         <i class="far fa-calendar-alt fa-2x"></i>
@@ -34,6 +60,16 @@
                 </li>
             </ul>
 
+            <script>
+                var btns = document.getElementsByClassName("hamburger");
+                for (let i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function () {
+                        //alert("s");
+                        let ham_menu = document.getElementsByClassName("ham_menu")[0];
+                        ham_menu.classList.toggle("-on");
+                    });
+                }
+            </script>
         </nav>
 
         <!-- 主視覺圖 -->
@@ -65,15 +101,16 @@
         </main>
 
         <!-- 頁尾 -->
-        <footer>            
+        <footer>
             <i class="fab fa-facebook-square fa-2x"></i>
             <i class="fab fa-instagram fa-2x"></i>
             <i class="fab fa-twitter-square fa-2x"></i>
             <h1>Contact US</h1>
-            <h2>phone：0912345678  |  e-mail：Bears_Cabin@gmail.com  |  LINE ID：@Bears_Cabin<br>address：</h2>
+            <h2>phone：0912345678 | e-mail：Bears_Cabin@gmail.com | LINE ID：@Bears_Cabin<br>address：</h2>
             <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。參考資源：Star Hostel、宜蘭風箏小木屋親子民宿、宜蘭慢停留民宿、南庄橄欖樹咖啡民宿、阡陌五房。</p>
         </footer>
     </div>
 
 </body>
+
 </html>

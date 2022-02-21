@@ -1,4 +1,6 @@
 main{
+    width: 960px;
+    height: 460px;
     margin: 0 auto;
     padding-top: 180px;
     display: flex;
@@ -17,14 +19,19 @@ main p{
 }
 
 main img{
-    height: 300px;
+    width: 300px;
+    height: 200px;
 }
 
 figure{
-    max-width: 300px;
+    width: 300px;
     height: 200px;
-    overflow: hidden;
+    margin-left: 30px;
     position: relative;
+}
+
+figure:nth-child(3n+1){
+    margin-left: 0;
 }
 
 figcaption{
@@ -42,17 +49,45 @@ figure:hover figcaption{
     display: block;
 }
 
-@media (min-width:576px) and (max-width:767.98px){
+@media (min-width: 768px) and (max-width: 1199.98px){
     main{
-        max-width: 600px;
-        min-height: 600px;
-        margin: 0 auto;
-        padding-top: 180px;
-        display: flex;
-        flex-flow: row wrap;
+        width: 630px;
+        height: 690px;
+        padding-top: 140px;
+    }
+
+    figure:nth-child(4){
+        margin-left: 30px;
+    }
+
+    figure:nth-child(odd){
+        margin-left: 0;
     }
 }
 
-@media screen and (max-width:575.98px){
+@media (min-width: 576px) and (max-width: 767.98px){
     
+}
+
+@media screen and (max-width: 767.98px){
+    main{
+        width: 80%;
+        padding-top: 140px;
+        border: 1px solid red;
+    }
+
+    main img{
+        width: 100%;
+    }
+
+    figure{
+        width: 100%;
+        height: calc(100% *2/3);
+        padding-top: 30px;
+        margin-left: 0;
+    }
+
+    figure img{
+        width: 100%;
+    }
 }

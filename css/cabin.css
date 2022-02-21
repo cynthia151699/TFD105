@@ -1,50 +1,68 @@
 main{
-    width: 85%;
+    width: 1140px;
     margin: 0 auto;
-    border: 1px solid red;
+    padding-top: 180px;
     position: relative;
 }
 
 article{
+    width: 1140px;
     position: absolute;
     z-index: 1;
 }
 
+figure{
+    height: 325px;
+}
+
 figure img{
-    height: 300px;
+    height: 325px;
 }
 
 figcaption{
-    display: inline-block;
-    width: 25%;
+    width: 400px;
+    float: right;
+    padding-top: 50px;
+    padding-right: 100px;
 }
 
 figcaption h2{
-    
-}
-
-figcaption p{
-    
+    padding-bottom: 15px;
 }
 
 aside{
+    width: 1140px;
+    padding-top: 50px;
     display: flex;
     flex-wrap: nowrap;
 }
 
 aside img{
-    flex-grow: 1;
-    border: 1px solid blue;
+    width: 275px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+aside img:nth-child(1){
+    margin-left: 0;
 }
 
 .back{
-    padding-top: 130px;
-    width: 85%;
-    margin: 0 auto;
-}
-
-.back_deco{
     background-color: #E7F3E0;
     width: 100%;
     height: 350px;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+}
+
+@media screen and (max-width: 575.98px){
+
 }

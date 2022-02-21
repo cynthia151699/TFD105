@@ -47,13 +47,13 @@ a:hover{
 
 /* ---------- navigation bar ---------- */
 
-nav{
+nav .com{
     width: 90%;
     height: 100px;
     margin: 0 auto;
 }
 
-nav ul{
+nav .com ul{
     display: inline-flex;
     flex-flow: row nowrap;
 }
@@ -63,23 +63,23 @@ nav img{
     margin-left: 15px;
 }
 
-nav ul li{
+nav .com ul li{
     text-align: center;
     margin-right: 20px;
 }
 
-nav ul li:first-child{
+nav .com ul li:first-child{
     margin-right: 40%;
 }
 
-nav ul li:last-child{
+nav .com ul li:last-child{
     padding-top: 15px;
     margin-right: 0;
 }
 
 /* hamburger */
 
-nav li:nth-child(7){
+nav .com li:nth-child(7){
     display: none;
 }
 
@@ -155,7 +155,31 @@ footer p{
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px){
+    .com{
+        display: none;
+    }
 
+    .ham{
+        border: 1px solid red;
+    }
+
+    .ham li{
+        width: 30%;
+        margin: 0 auto;
+        border: 1px solid blue;
+    }
+
+    .ham a{
+        border: 1px solid green;
+    }
+
+    .ham_menu{
+        transform: translateY(-200%);
+    }
+
+    .ham_menu.-on{
+        transform: translateY(0%);
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
