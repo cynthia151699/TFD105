@@ -1,21 +1,7 @@
-header{
-    background-image: url(../images/main_pic.png); 
-    width: 1150px; 
-    height: 750px; 
-    margin: 0 auto;
-}
-
-aside{
-    background-color: #E7F3E0; 
-    width: 1200px; 
-    height: 400px; 
-    margin: 100px auto 0 auto; 
-}
-
 aside img{
     width: 250px; 
     height: 250px; 
-    border-radius: 125px; 
+    border-radius: 50%; 
     padding-left: 40px;
 }
 
@@ -26,7 +12,7 @@ aside p{
     padding-left: 40px;
 }
 
-figure{
+aside li{
     width: 325px; 
     height: 335px; 
     float: left; 
@@ -34,42 +20,3 @@ figure{
     margin-left: 105px; 
     border-right: 3px solid #C4C4C4;
 }
-
-main {
-    height: 675px;
-    position: absolute
-}
-
-main video{
-    width: 1200px;
-}
-
-main img{
-    height: 675px; 
-    position: absolute; 
-    top: 0px; 
-    left: 319px;
-}
-
-main h1{
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em; 
-    position: absolute; 
-    top: 230px; 
-    left: 645px;
-}
-
-main h2{
-    width: 500px;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em; 
-    position: absolute; 
-    top: 285px; 
-    left: 645px; 
-}
-
-@media (min-width: 768px) and (max-width: 1199.98px){}
-
-@media (min-width: 576px) and (max-width: 767.98px){}
-
-@media screen and (max-width: 575.98px){}

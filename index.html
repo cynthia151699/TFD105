@@ -11,103 +11,193 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
         integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <style>
+        @media (min-width: 768px) and (max-width: 1199.98px) {
+            header {
+                width: 700px;
+                height: 600px;
+                background-position: center;
+            }
+
+            main video {
+                width: 100%;
+            }
+
+            main img {
+                height: 432px;
+                left: 145px;
+            }
+
+            main h1 {
+                left: 145px;
+                }
+
+            main h2 {
+                left: 145px;
+            }
+
+            footer {
+                width: 100%
+            }
+
+            footer h1 {
+                width: 100%;
+            }
+
+            footer h2 {
+                width: 100%;
+            }
+
+            footer p {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width:767.98px) {
+            .wrapper {
+                width: 100%;
+                margin: 0 auto;
+                border: 1px solid red;
+            }
+
+            .nav_mobile {
+                display: block;
+            }
+
+            nav {
+                width: 100%;
+                padding: 100px 0 15px;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+            nav li {
+                float: none;
+            }
+
+            nav a {
+                padding: 15px;
+                line-height: 20px;
+            }
+
+            ul li a {
+                padding-left: 30px;
+            }
+        }
+
+        /* ---------- footer ---------- */
+
+        .community {
+            width: 290px;
+            height: 70px;
+            margin: 0 auto;
+            padding-top: 25px;
+        }
+
+        .community i {
+            margin-left: 65px;
+        }
+
+        footer p {
+            
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {}
+        @media screen and (max-width: 575.98px) {}
+    </style>
 </head>
 
 <body>
     <div class="wrapper">
-        <!-- 導覽列 -->
-        <nav class="com">
-            <ul>
-                <li>
-                    <a href="./index.html">
-                        <img src="./images/logo.svg" alt="">
-                    </a>
-                </li>
-                <li><a href="#">About&nbspUS</a></li>
+        <div class="nav-container" style="width: 100%; height: 100px; margin: 0 auto; position: relative">
+            <div class="logo" style="position: absolute; padding-left: 20px; padding-top: 10px; float: left;">
+                <a href="./index.html">
+                    <img src="./images/logo.svg" alt="" style="height: 100px;">
+                </a>
+            </div>
+            <!-- 導覽列 -->
+            <nav style="float: right; padding-top: 50px; margin-right: 30px;">
+                <button class="hamburger" style="position: absolute; top: 30px; right: 30px; display: none;">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </button>
+
+                <ul class="nav_list">
+                    <li><a href="#abc">About US</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./cabins.html">Cabins</a></li>
+                    <li><a href="./location.html">Location</a></li>
+                    <li><a href="./scenery.html">Scenery</a></li>
+                    <li><a href="./booking.html">
+                            <p>Book Now</p>
+                        </a></li>
+                </ul>
+            </nav>
+            <ul class="ham_list" style="padding-top: 100px; text-align: center; background-color: aliceblue;">
+                <li><a href="#">About US</a></li>
                 <li><a href="./news.html">News</a></li>
                 <li><a href="./cabins.html">Cabins</a></li>
                 <li><a href="./location.html">Location</a></li>
                 <li><a href="./scenery.html">Scenery</a></li>
                 <li><a href="./booking.html">
-                        <h1>立即預約</h1>
+                        <p>Book Now</p>
                     </a></li>
-                <li>
-                    <a href="./booking.html">
-                        <i class="far fa-calendar-alt fa-2x"></i>
-                        <p>book<br>now</p>
-                    </a>
-                </li>
             </ul>
-        </nav>
+        </div>
 
-        <nav class="ham">
-            <a href="./index.html">
-                <img src="./images/logo.svg" alt="">
-            </a>
-            <button type="button" class="hamburger">hamburger</button>
-            <ul class="ham_menu">
-                <li><a href="#">About&nbspUS</a></li>
-                <li><a href="./news.html">News</a></li>
-                <li><a href="./cabins.html">Cabins</a></li>
-                <li><a href="./location.html">Location</a></li>
-                <li><a href="./scenery.html">Scenery</a></li>
-                <li><a href="./booking.html">立即預約</a></li>
-                <li>
-                    <a href="./booking.html">
-                        <i class="far fa-calendar-alt fa-2x"></i>
-                        <p>book<br>now</p>
-                    </a>
-                </li>
-            </ul>
-
-            <script>
-                var btns = document.getElementsByClassName("hamburger");
-                for (let i = 0; i < btns.length; i++) {
-                    btns[i].addEventListener("click", function () {
-                        //alert("s");
-                        let ham_menu = document.getElementsByClassName("ham_menu")[0];
-                        ham_menu.classList.toggle("-on");
-                    });
-                }
-            </script>
-        </nav>
+        <script>
+            var btns = document.getElementsByClassName("hamburger");
+            for (let i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    let ham_menu = document.getElementsByClassName("ham_list")[0];
+                    ham_menu.classList.toggle("-on");
+                });
+            }
+        </script>
 
         <!-- 主視覺圖 -->
-        <header></header>
+        <header style="background-image: url(./images/main_pic.png); width: 1150px; height: 750px; margin: 0 auto;">
+        </header>
 
         <!-- 最新消息 -->
-        <aside>
-            <figure>
-                <img src="./images/news1.png" alt="">
-                <p>來織隻屬於你的小熊吧！毛線體驗課程歡迎您的報名！</p>
-            </figure>
-            <figure>
-                <img src="./images/news2.png" alt="">
-                <p>關於 Covid-19，我們的應對…</p>
-            </figure>
-            <figure>
-                <img src="./images/news3.png" alt="">
-                <p>謝謝大家的支持！彩繪牆活動已順利結束！</p>
-            </figure>
+        <aside style="background-color: #E7F3E0; width: 100%; height: 400px; margin: 100px auto 0 auto;">
+            <ul>
+                <li>
+                    <img src="./images/news1.png" alt="">
+                    <p>來織隻屬於你的小熊吧！毛線體驗課程歡迎您的報名！</p>
+                </li>
+                <li>
+                    <img src="./images/news2.png" alt="">
+                    <p>關於 Covid-19，我們的應對…</p>
+                </li>
+                <li>
+                    <img src="./images/news3.png" alt="">
+                    <p>謝謝大家的支持！彩繪牆活動已順利結束！</p>
+                </li>
+            </ul>
             <a href="./news.html">read more</a>
         </aside>
 
         <!-- 關於我們 -->
-        <main>
-            <video autoplay loop src="./images/index_AU.mp4" muted="true" preload="auto"></video>
-            <img src="./images/Subtract.png" alt="">
-            <h1>About US</h1>
-            <h2>Bear's Cabin 提供各式小木屋，並不定期舉辦各式體驗課程，讓喜歡木造屋舍與想歇一口氣的人們能在此停留好好休息與享受樹木的氣息。</h2>
+        <main id="abc" style="height: 675px; position: absolute;">
+            <video autoplay loop src="./images/index_AU.mp4" muted="true" preload="auto" style="width: 1200px;"></video>
+            <img src="./images/Subtract.png" alt="" style="height: 675px; position: absolute; top: 0px; left: 319px;">
+            <h1
+                style="color: white; text-shadow: black 0.1em 0.1em 0.2em; position: absolute; top: 230px; left: 645px;">
+                About US</h1>
+            <h2
+                style="width: 500px; color: white; text-shadow: black 0.1em 0.1em 0.2em; position: absolute; top: 285px; left: 645px; ">
+                Bear's Cabin 提供各式小木屋，並不定期舉辦各式體驗課程，讓喜歡木造屋舍與想歇一口氣的人們能在此停留好好休息與享受樹木的氣息。</h2>
         </main>
 
         <!-- 頁尾 -->
-        <footer>
+        <footer style="background-image: url(../images/back_pic2.png); width: 1200px; height: 300px; margin: 0 auto;">
             <i class="fab fa-facebook-square fa-2x"></i>
             <i class="fab fa-instagram fa-2x"></i>
             <i class="fab fa-twitter-square fa-2x"></i>
-            <h1>Contact US</h1>
-            <h2>phone：0912345678 | e-mail：Bears_Cabin@gmail.com | LINE ID：@Bears_Cabin<br>address：</h2>
-            <p>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。參考資源：Star Hostel、宜蘭風箏小木屋親子民宿、宜蘭慢停留民宿、南庄橄欖樹咖啡民宿、阡陌五房。</p>
+            <h1 style="width: 1100px; margin: 0 auto;">Contact US</h1>
+            <h2 style="width: 1100px; margin: 0 auto;">phone：0912345678 | e-mail：Bears_Cabin@gmail.com | LINE ID：@Bears_Cabin<br>address：</h2>
+            <p style="width: 1100px; margin: 0 auto; padding-top: 15px;">本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。參考資源：Star Hostel、宜蘭風箏小木屋親子民宿、宜蘭慢停留民宿、南庄橄欖樹咖啡民宿、阡陌五房。</p>
         </footer>
     </div>
 
