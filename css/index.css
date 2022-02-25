@@ -15,7 +15,7 @@ aside{
     width: 98%; 
     height: 500px; 
     margin: 0 auto; 
-    padding-top: 150px;
+    padding-top: 125px;
 }
 
 aside ul{
@@ -30,10 +30,80 @@ aside li{
     margin-right: 30px;
 }
 
+aside li:last-child{
+    margin-right: 0px;
+}
+
 aside img{
     max-width: 225px; 
     max-height: 225px; 
     border-radius: 50%; 
+}
+
+@media screen and (max-width:767.98px) {
+    header{
+        height: 500px; 
+        background-position: left 45% bottom 0%;
+        margin-top: 5px;
+    }
+
+    aside{
+        height: 450px; 
+        padding-top: 70px;
+    }
+
+    aside ul{
+        max-width: 70%; 
+        margin: 0 auto;
+        padding-bottom: 15px;
+        overflow-x: auto;
+    }
+
+    aside li{
+        width: 150px;
+    }
+
+    aside li:first-child{
+        margin-left: 30px;
+    }
+
+    aside li:last-child{
+        margin-right: 30px;
+    }
+
+    aside img{
+        width: 150px;
+    }
+
+    aside a{
+        margin-right: 30px;
+        padding-top: 10px;
+    }
+
+    main{
+        height: 450px;
+        overflow: hidden;
+    }
+
+    main video{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    main h1{
+        top: 80px; 
+        left: 35px;
+    }
+
+    main h2{
+        height: 200px;
+        top: 180px; 
+        left: 35px;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
 
 aside p{    
