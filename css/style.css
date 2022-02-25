@@ -56,6 +56,10 @@ a{
     position: absolute; 
 }
 
+.logo img{
+    height: 75px;
+}
+
 nav{
     float: right; 
     margin-right: 0px;
@@ -180,6 +184,27 @@ footer p{
 
     footer p{
         padding: 30px;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .logo img{
+        height: 50px;
+    }
+
+    .com_menu{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    footer{
+        margin-bottom: 5px;
+    }
+
+    footer p{
+        padding: 10px;
     }
 }
 
