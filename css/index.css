@@ -3,7 +3,7 @@ header{
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-position: left 0% bottom 27%;
+    background-position: left 0% top 0%;
     width: 98%; 
     height: 700px; 
     margin: 0 auto; 
@@ -91,18 +91,20 @@ aside img{
     }
 
     main h1{
+        white-space: nowrap;
         top: 80px; 
         left: 35px;
     }
 
     main h2{
-        height: 200px;
+        height: fit-content;
         top: 180px; 
         left: 35px;
 
-        white-space: nowrap;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
         overflow: hidden;
-        text-overflow: ellipsis;
     }
 }
 

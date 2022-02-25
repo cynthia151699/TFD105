@@ -10,6 +10,12 @@ body{
     letter-spacing: 1px;
     text-align: left;
     /* animation: change_color 20s linear infinite; */
+    
+    /* animation: fadeInAnimation ease 3s;  */
+    /* animation-iteration-count: 1;  */
+    /*设置动画播放次数*/
+    /* animation-fill-mode: forwards;  */
+    /*设置样式以在动画不播放时应用元素。forward是设置动画结束后，使用元素的结束属性值*/
 }
 
 @keyframes change_color {
@@ -19,6 +25,15 @@ body{
 	50%{
 		background-color: #FDD371;
 	}
+}
+
+@keyframes fadeInAnimation { 
+    0% {
+        opacity: 0; /*设置不透明度*/
+    } 
+    100% {
+        opacity: 1; 
+    } 
 }
 
 /* ---------- modular ---------- */
@@ -68,7 +83,7 @@ nav{
 
 .com_menu li{
     float: left;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .com_menu li:last-child{
@@ -79,29 +94,29 @@ nav{
     font-size: 20px;
     font-weight: 900;
     color: transparent;
-    -webkit-text-stroke: 0.1px #FFFFFB;
+    -webkit-text-stroke: 0.1px #0C0C0C;
     padding: 0 5px 5px 5px;
 }
 
 .com_menu a:hover{
-    border-bottom: 1px solid #FFFFFB;
+    border-bottom: 1px solid #0C0C0C;
 }
 
 .booking{
-    border: 1px solid #FFFFFB; 
+    border: 1px solid #0C0C0C; 
     
 }
 
 .booking:hover{
-    background-color: #FFFFFB;
-    -webkit-text-stroke: 0.1px #0C0C0C;
+    background-color: #0C0C0C;
+    -webkit-text-stroke: 0.1px #FFFFFB;
 }
 
 /* ---------- hamburger ---------- */
 .hamburger{
     border: 0px; 
     background-color: transparent;
-    color: #FFFFFB; 
+    color: #0C0C0C; 
     position: absolute; 
     top: 30px; 
     right: 30px;
@@ -109,7 +124,7 @@ nav{
 }
 
 .ham_menu{
-    background-color: #0C0C0C; 
+    background-color: #FFFFFB; 
     margin: 0 auto;
     opacity: 70%;
     transform: translateY(-150%);
@@ -121,7 +136,7 @@ nav{
 }
 
 .ham_menu a{
-    color: #FFFFFB;
+    color: #0C0C0C;
 }
 
 .ham_menu.-on{
@@ -129,7 +144,7 @@ nav{
 }
 
 .ham_container.-on{
-    background-color: #0C0C0C; 
+    background-color: #FFFFFB; 
     opacity: 70%;
 }
 
