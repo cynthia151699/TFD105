@@ -1,3 +1,28 @@
 section span{
     color: blue;
 }
+
+@media screen and (max-width: 767.98px) {
+    section {
+        margin-top: 90px;
+    }
+
+    main {
+        padding-top: 55%;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    section {
+        border: 3px solid #DCEFCD;
+        /* font-size: 12px; */
+    }
+
+    section p {
+        padding: 20px;
+    }
+
+    main {
+        padding-top: 70%;
+    }
+}

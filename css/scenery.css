@@ -1,7 +1,10 @@
-main h2{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 45px;
+main{
+    width: 960px; 
+    height: 460px; 
+    margin: 0 auto; 
+    padding-top: 180px; 
+    display: flex; 
+    flex-flow: wrap;
 }
 
 main img{
@@ -9,9 +12,20 @@ main img{
     height: 200px;
 }
 
+main h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
 main p{
-    font-size: 12px;
-    margin: 10px 15px 0 15px;
+    width: 270px;
+    margin: 3px auto 0 auto;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
 }
 
 figure{
@@ -60,23 +74,13 @@ figure:hover figcaption{
 
 @media screen and (max-width: 767.98px){
     main{
-        width: 80%;
+        width: 300px;
+        margin: 0 auto;
         padding-top: 140px;
-        border: 1px solid red;
-    }
-
-    main img{
-        width: 100%;
     }
 
     figure{
-        width: 100%;
-        height: calc(100% *2/3);
-        padding-top: 30px;
+        margin-top: 30px;
         margin-left: 0;
-    }
-
-    figure img{
-        width: 100%;
     }
 }
