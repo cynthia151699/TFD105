@@ -2,7 +2,8 @@ main{
     width: 960px; 
     height: 460px; 
     margin: 0 auto; 
-    padding-top: 180px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex; 
     flex-flow: wrap;
 }
@@ -55,10 +56,15 @@ figure:hover figcaption{
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px){
+    .ham_menu{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+
     main{
         width: 630px;
         height: 690px;
-        padding-top: 140px;
     }
 
     figure:nth-child(4){
@@ -71,18 +77,27 @@ figure:hover figcaption{
 }
 
 @media screen and (max-width: 767.98px){
+    .ham_menu{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+
     main{
         width: 300px;
         margin: 0 auto;
-        padding-top: 140px;
     }
 
     figure{
         margin-top: 30px;
         margin-left: 0;
     }
+
+    figure:first-child{
+        margin-top: 0;
+    }
+
+    footer{
+        margin-top: 900px;
+    }
 }
-
-@media (min-width: 576px) and (max-width: 767.98px){}
-
-@media screen and (max-width: 575.98px){}
