@@ -6,16 +6,11 @@ li{
 }
 
 li img{
-    width: 60%;
+    width: 545px;
     height: 100%;
-    border: 1px solid gray;
 }
 
 li:nth-child(odd) img{
-    float: left;
-}
-
-li:nth-child(odd) p{
     float: left;
 }
 
@@ -23,6 +18,22 @@ li:nth-child(even) img{
     float: right;
 }
 
+li p{
+    min-width: 350px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+li:nth-child(odd) p{
+    float: left;
+    border: 1px solid red;
+}
+
 li:nth-child(even) p{
     float: left;
+}
+
+li a p{
+    padding-top: 70px;
+    border: 1px solid blue;
 }

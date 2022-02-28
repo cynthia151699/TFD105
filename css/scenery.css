@@ -70,8 +70,6 @@ figure:hover figcaption{
     }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px){}
-
 @media screen and (max-width: 767.98px){
     main{
         width: 300px;
@@ -84,3 +82,7 @@ figure:hover figcaption{
         margin-left: 0;
     }
 }
+
+@media (min-width: 576px) and (max-width: 767.98px){}
+
+@media screen and (max-width: 575.98px){}
