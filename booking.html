@@ -11,128 +11,6 @@
     <link rel="stylesheet" href="./css/booking.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
         integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
-    <style>
-        @media (min-width: 768px) and (max-width: 1199.98px) {
-            main {
-                width: 700px;
-                margin: 0 auto;
-            }
-
-            main input {
-                width: 325px;
-            }
-
-            .check_in {
-                display: inline-block;
-            }
-
-            .check_out {
-                display: inline-block;
-            }
-
-            main button {
-                display: block;
-                margin: 0 auto;
-                margin-top: 30px;
-            }
-
-            .room {
-                clear: both;
-            }
-
-            figure {
-                display: block;
-                width: 550px;
-                margin: 0 auto;
-                clear: both;
-            }
-
-            figure img {
-                width: 550px;
-            }
-
-            figcaption {
-                width: 550px;
-                height: 150px;
-            }
-
-
-
-            .room article {
-                padding-top: 65px;
-                width: 550px;
-                height: 300px;
-            }
-
-            main>article {
-                margin-top: 500px;
-            }
-        }
-
-        @media (min-width: 576px) and (max-width: 767.98px) {}
-
-        @media screen and (max-width: 575.98px) {}
-
-        @media screen and (max-width: 767.98px) {
-            main {
-                width: 100%;
-            }
-
-            main input {
-                width: 100%;
-            }
-
-            .check_in {
-                width: 80%;
-                display: block;
-                margin: 0 auto;
-            }
-
-            .check_out {
-                width: 80%;
-                display: block;
-                margin: 0 auto;
-            }
-
-            main button {
-                display: block;
-                margin: 0 auto;
-                margin-top: 20px;
-            }
-
-            .room {
-                padding-top: 30px;
-                clear: both;
-            }
-
-            figure {
-                display: block;
-                width: 90%;
-                margin: 0 auto;
-                clear: both;
-            }
-
-            figure img {
-                width: 100%;
-            }
-
-            figcaption {
-                width: 100%;
-                height: 150px;
-            }
-
-            .room article {
-                padding-top: 100px;
-                width: 90%;
-                height: 300px;
-            }
-
-            main>article {
-                margin-top: 500px;
-                padding: 10px;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -140,33 +18,71 @@
     <div class="wrapper">
 
         <!-- 導覽列 -->
+        <div class="nav_container">
+
+            <div class="ham_container">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./images/logo.svg" alt="">
+                    </a>
+                </div>
+
+                <!-- 漢堡按鈕 -->
+                <button class="hamburger">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </button>
+
+                <nav>
+                    <!-- computer navigation bar -->
+                    <ul class="com_menu">
+                        <li><a href="#about">About US</a></li>
+                        <li><a href="./news.html">News</a></li>
+                        <li><a href="./cabins.html">Cabins</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./scenery.html">Scenery</a></li>
+                        <li><a href="./booking.html" class="booking" style="padding: 7px;">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- hamburger menu -->
+            <ul class="ham_menu">
+                <li><a href="#about">About US</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./cabins.html">Cabins</a></li>
+                <li><a href="./location.html">Location</a></li>
+                <li><a href="./scenery.html">Scenery</a></li>
+                <li><a href="./booking.html">Book Now</a></li>
+            </ul>
+
+        </div>
 
         <!-- 預約畫面 -->
-        <main style="max-width: 1140px; margin: 0 auto; border: 1px solid red;">
+        <main>
 
             <!-- 查詢 -->
-            <div>
-                <div class="check_in" style="display: inline-block;">
+            <div class="check">
+                <div class="check_in">
                     <p>入住日</p>
-                    <input type="date" style="width: 410px; height: 55px;">
+                    <input type="date">
                 </div>
-                <div class="check_out" style="display: inline-block; margin-left: 30px;">
+                <div class="check_out">
                     <p>退房日</p>
-                    <input type="date" style="width: 410px; height: 55px;">
+                    <input type="date">
                 </div>
-                <button
-                    style="width: 220px; height: 55px; border: none; border-radius: 5px; margin-left: 45px;">查看有無空房</button>
+                <button>查看有無空房</button>
             </div>
 
             <!-- 空房選擇 -->
-            <div class="room" style="padding-top: 50px;">
+            <div class="room">
 
                 <!-- 預覽木屋 -->
-                <figure style="display: inline-block; width: 857px;">
-                    <img src="./images/photos.png" alt="" style="height: 300px;">
+                <figure>
+                    <img src="./images/14.jpg" alt="">
 
-                    <figcaption style="width: 305px; height: 300px; float: right;">
-                        <h2 style="padding-top: 10px; margin-bottom: 10px;">頂樓豪華雙人房</h2>
+                    <figcaption>
+                        <h2>頂樓豪華雙人房</h2>
                         <p>一張雙人床（150*200公分 / 厚度15公分）<br>獨立衛浴設備<br>戶外陽台（附遮棚）<br>
                             <br>房間設備：<br>平板電視 / 冷氣 / 浴巾 / 吹風機 / 洗髮乳 / 沐浴乳 / 小型冰箱 / 窗戶
                         </p>
@@ -174,7 +90,7 @@
                 </figure>
 
                 <!-- 付款須知 -->
-                <article style="padding-top: 5px; width: 220px; height: 300px; float: right;">
+                <article>
                     <p>付款方式<br>房費 < 3000NTD - 僅收現金<br>房費 ≥ 3000NTD - 可使用信用卡或現金<br>
                             <br>取消政策<br>免費更改或取消訂單之期限為入住日四天以前；逾期將收取第一晚的房費做為更改費用。
                             <br>例如：1月5號入住，請於1月1號結束前完成更改或取消。
@@ -187,7 +103,7 @@
 
             <!-- 位置資訊、住宿須知 -->
             <article>
-                <p style="padding: 30px;">旅館訊息<br>旅館位於台北熱鬧繁華的東區商圈內，距離捷運忠孝敦化站7號出口，僅步行一分鐘距離。
+                <p>旅館訊息<br>旅館位於台北熱鬧繁華的東區商圈內，距離捷運忠孝敦化站7號出口，僅步行一分鐘距離。
                     <br>簡約現代的設計風格，與舒適明敞的休憩空間，為旅人探索台北流行文化的最佳起點。<br>
                     <br>地址：台北市大安區忠孝東路四段147巷5號3樓<br>電話 : 09-1234-5678 <br>
                     <br>入住時間 03:00 PM <br>退房時間 11:00 AM <br>櫃台時間 08:00 - 22:30 <br>早餐時間 08:00 - 10:00 <br>
@@ -200,9 +116,23 @@
         </main>
 
         <!-- 頁尾 -->
-
+        <footer>
+            <div class="contact">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter-square" style="margin-right: 0px;"></i></a>
+            </div>
+            <p>LINE ID：@Bears_Cabin
+                <br>Phone：+886 9 1234-5678 | E-mail：Bears_Cabin@gmail.com
+                <br>Address：104506台北市中山區南京東路三段219號5樓
+                <br>5F., No. 219, Sec. 3, Nanjing E. Rd., Zhongshan Dist., Taipei City 104506 , Taiwan (R.O.C.)
+                <br>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。
+                <br>參考資源：Star Hostel、宜蘭風箏小木屋親子民宿、阡陌五房、南投旅遊網。
+            </p>
+        </footer>
     </div>
 
+    <script src="./style.js"></script>
 </body>
 
 </html>
