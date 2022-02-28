@@ -6,50 +6,61 @@ main{
 
 ul{
     width: 100%; 
-    position: absolute; 
-    z-index: 1;
 }
 
-li{
+main li{
     width: 100%;
     height: 325px;
     margin: 0 auto;
     padding-top: 50px;
+    border: 1px solid red;
 }
 
-li img{
+main li:first-child{
+    padding-top: 0;
+}
+
+main li:last-child{
+    padding-bottom: 50px;
+}
+
+main li img{
     width: 545px;
+    height: 100%;
 }
 
-li:nth-child(odd) img{
+main li:nth-child(odd) img{
     float: left;
 }
 
-li:nth-child(even) img{
+main li:nth-child(even) img{
     float: right;
 }
 
-li p{
-    min-width: 350px;
-    padding-left: 100px;
+main li p{
+    width: 250px;
+    padding-left: 55px;
     padding-top: 50px;
 }
 
-li:nth-child(odd) p{
+main li:nth-child(odd) p{
     float: left;
 }
 
-li:nth-child(even) p{
+main li:nth-child(even) p{
     float: left;
 }
 
-li a p{
+main li a p{
     padding-top: 70px;
 }
 
 .back{
-    padding-top: 210px; 
     width: 80%; 
+    position: absolute;
+    z-index: -1;
+    left: 10%;
+    top: 300px;
     margin: 0 auto;
 }
 
@@ -60,8 +71,9 @@ li a p{
 }
 
 .solid{
-    height: 380px; 
+    height: 200px; 
     border: 5px solid #DCEFCD; 
+    border-bottom: 0px;
     box-sizing: border-box; 
     margin-top: 380px;
 }

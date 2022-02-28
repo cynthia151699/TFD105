@@ -11,13 +11,6 @@
     <link rel="stylesheet" href="./css/cabin.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
         integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
-    <style>
-        @media (min-width: 768px) and (max-width: 1199.98px) {}
-
-        @media (min-width: 576px) and (max-width: 767.98px) {}
-
-        @media screen and (max-width: 575.98px) {}
-    </style>
 </head>
 
 <body>
@@ -25,14 +18,54 @@
     <div class="wrapper">
 
         <!-- 導覽列 -->
+        <div class="nav_container">
+
+            <div class="ham_container">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./images/logo.svg" alt="">
+                    </a>
+                </div>
+
+                <!-- 漢堡按鈕 -->
+                <button class="hamburger">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </button>
+
+                <nav>
+                    <!-- computer navigation bar -->
+                    <ul class="com_menu">
+                        <li><a href="#about">About US</a></li>
+                        <li><a href="./news.html">News</a></li>
+                        <li><a href="./cabins.html">Cabins</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./scenery.html">Scenery</a></li>
+                        <li><a href="./booking.html" class="booking" style="padding: 7px;">Book Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- hamburger menu -->
+            <ul class="ham_menu">
+                <li><a href="#about">About US</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./cabins.html">Cabins</a></li>
+                <li><a href="./location.html">Location</a></li>
+                <li><a href="./scenery.html">Scenery</a></li>
+                <li><a href="./booking.html">Book Now</a></li>
+            </ul>
+
+        </div>
+
 
         <!-- 木屋內部介紹 -->
-        <main style="width: 1140px; margin: 0 auto; padding-top: 180px; position: relative;">
+        <main style="width: 1140px; margin: 0 auto; position: relative;">
             <article style="width: 1140px; position: absolute;z-index: 1;">
                 <figure style="height: 325px;">
-                    <img src="./images/photos.png" alt="木屋內部預覽大圖" style="height: 325px;">
+                    <img src="./images/15.jpg" alt="木屋內部預覽大圖" style="height: 325px;">
 
-                    <figcaption style="width: 400px; float: right; padding-top: 50px; padding-right: 100px;">
+                    <figcaption style="width: 400px; float: right; padding-top: 25px; padding-right: 175px;">
                         <h2 style="padding-bottom: 15px;">1~3人房</h2>
                         <p>一張King size床（180*200公分 / 厚度15公分）（可再要求加一張單人床90*200）<br><br>獨立衛浴設備<br>戶外陽台 (附遮棚) <br>
                             <br>房間設備：<br>平板電視 / 冷氣 / 浴巾 / 吹風機 /洗髮乳 / 沐浴乳 / 小型冰箱 / 窗戶
@@ -41,10 +74,10 @@
                 </figure>
 
                 <aside style="width: 1140px; padding-top: 50px; display: flex; flex-wrap: nowrap;">
-                    <img src="./images/small_pic1.png" alt="" style="margin-left: 0;">
-                    <img src="./images/small_pic2.png" alt="">
-                    <img src="./images/small_pic3.png" alt="">
-                    <img src="./images/small_pic4.png" alt="">
+                    <img src="./images/13.jpeg" alt="" style="margin-left: 0;">
+                    <img src="./images/12.jpeg" alt="">
+                    <img src="./images/11.jpeg" alt="">
+                    <img src="./images/10.jpeg" alt="">
                 </aside>
             </article>
 
@@ -57,6 +90,20 @@
         <div class="back_btn"></div>
 
         <!-- 頁尾 -->
+        <footer>
+            <div class="contact">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter-square" style="margin-right: 0px;"></i></a>
+            </div>
+            <p>LINE ID：@Bears_Cabin
+                <br>Phone：+886 9 1234-5678 | E-mail：Bears_Cabin@gmail.com
+                <br>Address：104506台北市中山區南京東路三段219號5樓
+                <br>5F., No. 219, Sec. 3, Nanjing E. Rd., Zhongshan Dist., Taipei City 104506 , Taiwan (R.O.C.)
+                <br>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。
+                <br>參考資源：Star Hostel、宜蘭風箏小木屋親子民宿、阡陌五房、南投旅遊網。
+            </p>
+        </footer>
 
 
     </div>
