@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,63 @@
     <link rel="icon" href="./images/icon.svg">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/news.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+        integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
 </head>
+
 <body>
 
     <div class="wrapper">
-        
+
         <main>
 
+            <!-- 導覽列 -->
+            <div class="nav_container">
+
+                <div class="ham_container">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./images/logo.svg" alt="">
+                        </a>
+                    </div>
+
+                    <!-- 漢堡按鈕 -->
+                    <button class="hamburger">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </button>
+
+                    <nav>
+                        <!-- computer navigation bar -->
+                        <ul class="com_menu">
+                            <li><a href="#about">About US</a></li>
+                            <li><a href="./news.html">News</a></li>
+                            <li><a href="./cabins.html">Cabins</a></li>
+                            <li><a href="./location.html">Location</a></li>
+                            <li><a href="./scenery.html">Scenery</a></li>
+                            <li><a href="./booking.html" class="booking" style="padding: 7px;">Book Now</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- hamburger menu -->
+                <ul class="ham_menu">
+                    <li><a href="#about">About US</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./cabins.html">Cabins</a></li>
+                    <li><a href="./location.html">Location</a></li>
+                    <li><a href="./scenery.html">Scenery</a></li>
+                    <li><a href="./booking.html">Book Now</a></li>
+                </ul>
+
+            </div>
+
             <!-- 最新消息 -->
-            <div class="timeline-small" style="max-width: 70%; max-height: 630px; overflow: hidden; margin: 30px auto 0;">
-                <div class="timeline-small-body" style="padding: 1em 0 0 2em; margin: 0; list-style: none; position: relative; margin-top: 180px;">
+            <div class="timeline_small">
+                <div class="timeline-small-body">
                     <ul>
                         <li>
-                            <div class="bullet pink" style="background-color: hotpink; border: 3px solid #F93B69;"></div>
+                            <div class="bullet one"></div>
                             <div class="date">2018-04-19</div>
                             <div class="desc">
                                 <h3>兒童節親子同樂DIY風箏活動！</h3>
@@ -30,7 +74,7 @@
                         </li>
 
                         <li>
-                            <div class="bullet orange" style="background-color: salmon; border: 3px solid #EB8B6E;"></div>
+                            <div class="bullet two"></div>
                             <div class="date">2018-04-09</div>
                             <div class="desc">
                                 <h3>兒童節親子同樂DIY風箏活動！</h3>
@@ -39,7 +83,7 @@
                         </li>
 
                         <li>
-                            <div class="bullet blue" style="background-color: aquamarine; border: 3px solid cadetblue;"></div>
+                            <div class="bullet three"></div>
                             <div class="date">2018-03-29</div>
                             <div class="desc">
                                 <h3>兒童節親子同樂DIY風箏活動！</h3>
@@ -48,7 +92,7 @@
                         </li>
 
                         <li>
-                            <div class="bullet green" style="background-color: lightseagreen; border: 3px solid #B0E8E2;"></div>
+                            <div class="bullet four"></div>
                             <div class="date">2018-03-09</div>
                             <div class="desc">
                                 <h3>兒童節親子同樂DIY風箏活動！</h3>
@@ -62,7 +106,25 @@
 
         </main>
 
+        <!-- 頁尾 -->
+        <footer>
+            <div class="contact">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter-square" style="margin-right: 0px;"></i></a>
+            </div>
+            <p>LINE ID：@Bears_Cabin
+                <br>Phone：+886 9 1234-5678 | E-mail：Bears_Cabin@gmail.com
+                <br>Address：104506台北市中山區南京東路三段219號5樓
+                <br>5F., No. 219, Sec. 3, Nanjing E. Rd., Zhongshan Dist., Taipei City 104506 , Taiwan (R.O.C.)
+                <br>本網站為緯育TibaMe前端設計工程師班第74期學員專題作品，本平台僅供學習、展示之用。
+                <br>參考資源：Star Hostel、宜蘭風箏小木屋親子民宿、阡陌五房、南投旅遊網。
+            </p>
+        </footer>
+
     </div>
-    
+
+    <script src="./style.js"></script>
 </body>
+
 </html>

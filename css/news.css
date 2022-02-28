@@ -1,3 +1,19 @@
+.timeline_small{
+    max-width: 70%; 
+    max-height: 630px; 
+    overflow: hidden; 
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.timeline-small-body{
+    padding: 1em 0 0 2em; 
+    margin: 0; 
+    list-style: none; 
+    position: relative; 
+}
+
 .timeline-small-body ul::before {
     content: ' ';
     height: 100%;
@@ -31,7 +47,7 @@
 }
 
 .timeline-small-body .desc {
-    width: 50%;
+    width: 70%;
 }
 .timeline-small-body h3 {
     font-size: 0.9em;
@@ -44,4 +60,61 @@
     font-size: 0.7em;
     font-weight: 400;
     color: #808080;
+}
+
+.timeline-small-body .bullet.one{
+    background-color: hotpink; 
+    border: 3px solid #F93B69;
+}
+
+.timeline-small-body .bullet.two{
+    background-color: salmon; 
+    border: 3px solid #EB8B6E;
+}
+
+.timeline-small-body .bullet.three{
+    background-color: aquamarine; 
+    border: 3px solid cadetblue;
+}
+
+.timeline-small-body .bullet.four{
+    background-color: lightseagreen; 
+    border: 3px solid #B0E8E2;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    .ham_menu{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width:767.98px){
+    .ham_menu{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .timeline_small{
+        padding-top: 15px;
+    }
+
+    .timeline-small-body .date{
+        width: 70%;
+        padding-top: 0.3rem;
+    }
+
+    .timeline-small-body .desc{
+        padding-left: 35px;
+    }
+
+    .timeline-small-body li:last-child{
+        display: none;
+    }
+
+    footer{
+        margin-top: 15px;
+    }
 }
