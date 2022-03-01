@@ -4,7 +4,7 @@ main{
     position: relative;
 }
 
-ul{
+main ul{
     width: 100%; 
 }
 
@@ -78,21 +78,21 @@ main li a p{
     margin-top: 380px;
 }
 
-@media screen and (max-width: 1199.98px) {
-    li{
+@media screen and (max-width: 767.98px) {
+    main li{
         width: 95%;
     }
 
-    li img{
+    main li img{
         width: 100%;
     }
 
-    li p{
+    main li p{
         padding-top: 30px;
         margin: 0 auto;
     }
 
-    li a p{
+    main li a p{
         padding-top: 30px;
         padding-bottom: 50px;
         margin: 0 auto;
