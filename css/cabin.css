@@ -10,6 +10,10 @@ article{
     z-index: 1;
 }
 
+figure{
+    height: 325px;
+}
+
 figure img{
     height: 325px;
 }
@@ -39,6 +43,14 @@ aside img{
 
 aside img:first-child{
     margin-left: 0;
+}
+
+.back{
+    background-color: #E7F3E0; 
+    width: 100%; 
+    height: 350px; 
+    margin: 0 auto; 
+    margin-top: 170px;
 }
 
 footer{
