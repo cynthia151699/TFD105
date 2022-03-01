@@ -172,6 +172,7 @@ main li a p{
 
     .dash{
         height: 400px;
+        min-width: 310px;
     }
 
     .solid{
