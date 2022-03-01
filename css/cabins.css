@@ -11,7 +11,7 @@ main ul{
 
 main li{
     width: 100%;
-    height: 325px;
+    height: 350px;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -26,7 +26,6 @@ main li:last-child{
 
 main li img{
     width: 545px;
-    height: 100%;
 }
 
 main li:nth-child(odd) img{
@@ -71,7 +70,7 @@ main li a p{
 }
 
 .solid{
-    height: 200px; 
+    height: 300px; 
     border: 5px solid #DCEFCD; 
     border-bottom: 0px;
     box-sizing: border-box; 
@@ -79,8 +78,14 @@ main li a p{
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
+    .ham_menu{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+    
     main ul{
-        width: 95%;
+        width: 550px;
         margin: 0 auto;
         padding-top: 15px;
     }
@@ -99,38 +104,50 @@ main li a p{
     }
 
     main li a p{
+        width: 35%;
         padding-top: 15px;
         padding-bottom: 30px;
         padding-left: 75%;
     }
 
     footer{
-        margin-top: 475px;
+        margin-top: 525px;
     }
 
     .back{
-        top: 230px;
+        top: 240px;
     }
 
     .dash{
-        height: 560px;
+        height: 590px;
     }
 
     .solid{
-        height: 400px;
-        margin-top: 540px;
+        height: 500px;
+        margin-top: 550px;
     }
 }
 
 @media screen and (max-width: 767.98px) {
+    .ham_menu{
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+    }
+    
     main ul{
-        width: 95%;
+        width: 300px;
         margin: 0 auto;
         padding-top: 15px;
     }
 
     main li{
         width: 100%;
+        padding-top: 0;
+    }
+
+    main li:last-child{
+        padding-bottom: 0;
     }
 
     main li img{
@@ -140,29 +157,30 @@ main li a p{
     main li p{
         width: 100%;
         padding-top: 20px;
+        padding-left: 0;
     }
 
     main li a p{
         padding-top: 15px;
-        padding-bottom: 30px;
-        padding-left: 75%;
-    }
-
-    footer{
-        margin-top: 475px;
+        padding-bottom: 20px;
+        padding-left: 50%;
     }
 
     .back{
-        top: 230px;
+        top: 150px;
     }
 
     .dash{
-        height: 560px;
+        height: 400px;
     }
 
     .solid{
         height: 400px;
-        margin-top: 540px;
+        margin-top: 400px;
+    }
+
+    footer{
+        margin-top: 150px;
     }
 }
 

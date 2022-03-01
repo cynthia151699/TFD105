@@ -1,7 +1,44 @@
+main{
+    width: 1140px; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+article{
+    width: 1140px; 
+    position: absolute;
+    z-index: 1;
+}
+
+figure img{
+    height: 325px;
+}
+
+figcaption{
+    width: 400px; 
+    float: right; padding-top: 25px; 
+    padding-right: 175px;
+}
+
+figcaption h2{
+    padding-bottom: 15px;
+}
+
+aside{
+    width: 1140px; 
+    padding-top: 50px; 
+    display: flex; 
+    flex-wrap: nowrap;
+}
+
 aside img{
     width: 275px;
     height: 200px;
     margin-left: 10px;
+}
+
+aside img:first-child{
+    margin-left: 0;
 }
 
 footer{
