@@ -6,6 +6,7 @@ main{
 
 main ul{
     width: 100%; 
+    padding-top: 10px;
 }
 
 main li{
@@ -13,7 +14,6 @@ main li{
     height: 325px;
     margin: 0 auto;
     padding-top: 50px;
-    border: 1px solid red;
 }
 
 main li:first-child{
@@ -78,9 +78,15 @@ main li a p{
     margin-top: 380px;
 }
 
-@media screen and (max-width: 767.98px) {
-    main li{
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    main ul{
         width: 95%;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+
+    main li{
+        width: 100%;
     }
 
     main li img{
@@ -88,31 +94,80 @@ main li a p{
     }
 
     main li p{
-        padding-top: 30px;
-        margin: 0 auto;
+        width: 100%;
+        padding-top: 20px;
     }
 
     main li a p{
-        padding-top: 30px;
-        padding-bottom: 50px;
-        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 75%;
+    }
+
+    footer{
+        margin-top: 475px;
+    }
+
+    .back{
+        top: 230px;
     }
 
     .dash{
-        height: 595px;
+        height: 560px;
     }
 
     .solid{
-        height: 595px;
-        margin-top: 595px;
+        height: 400px;
+        margin-top: 540px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    main ul{
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+
+    main li{
+        width: 100%;
+    }
+
+    main li img{
+        width: 100%;
+    }
+
+    main li p{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    main li a p{
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 75%;
+    }
+
+    footer{
+        margin-top: 475px;
+    }
+
+    .back{
+        top: 230px;
+    }
+
+    .dash{
+        height: 560px;
+    }
+
+    .solid{
+        height: 400px;
+        margin-top: 540px;
     }
 }
 
 
 @media screen and (max-width:575.98px) {}
-
-
-
 @media screen and (max-width:767.98px) {}
 @media (min-width: 768px) and (max-width: 1199.98px) {}
 @media (min-width: 576px) and (max-width:767.98px) {}
