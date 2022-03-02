@@ -63,23 +63,23 @@
 }
 
 .timeline-small-body .bullet.one{
-    background-color: hotpink; 
-    border: 3px solid #F93B69;
+    background-color: #EAF9C4; 
+    border: 3px solid gray;
 }
 
 .timeline-small-body .bullet.two{
-    background-color: salmon; 
-    border: 3px solid #EB8B6E;
+    background-color: #EAF9C4; 
+    border: 3px solid gray;
 }
 
 .timeline-small-body .bullet.three{
-    background-color: aquamarine; 
-    border: 3px solid cadetblue;
+    background-color: #EAF9C4; 
+    border: 3px solid gray;
 }
 
 .timeline-small-body .bullet.four{
-    background-color: lightseagreen; 
-    border: 3px solid #B0E8E2;
+    background-color: #EAF9C4; 
+    border: 3px solid gray;
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px){
